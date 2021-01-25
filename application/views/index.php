@@ -23,27 +23,28 @@
 
         <!-- ========================  Icons slider ======================== -->
 
-        <section class="owl-icons-wrapper owl-icons-frontpage">
+        <!-- <section class="owl-icons-wrapper owl-icons-frontpage"> -->
 
             <!-- === header === -->
+            
 
-            <header class="hidden">
+           <!--  <header class="hidden">
                 <h2>Kategori Terpopuler</h2>
             </header>
 
             <div class="container">
 
-                <div class="owl-icons">
+                <div class="owl-icons"> -->
 
                     <!-- === icon item === -->
-<?php foreach ($get_kategori as $key => $get_kategori) {?>
+<!-- <?php foreach ($get_kategori as $key => $get_kategori) {?>
                     <a href="<?php echo base_url('page/kategori/'). $get_kategori['id_kategori'] ?>">
                         <figure>
                             <img style="width: 50px;margin-bottom: 30px;" src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ?>"/>
                             <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
                         </figure>
                     </a>
-<?php } ?>
+<?php } ?> -->
                     <!-- === icon item === -->
 
                    
@@ -88,13 +89,13 @@
                             <div class="figure-grid">
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-1.png" alt="" width="360" />
+                                        <img src="assets/images/cctv.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Green corner</a></h2>
-                                    <sub>$ 1499,-</sub>
-                                    <sup>$ 1099,-</sup>
+                                    <h2 class="title h4"><a href="product.html">CCTV</a></h2>
+                                    <sub>Rp.500.000,-</sub>
+                                    <sup>Rp.300.000,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -119,13 +120,13 @@
                             <div class="figure-grid">
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-2.png" alt="" width="360" />
+                                        <img src="assets/images/ac.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Laura</a></h2>
-                                    <sub>$ 3999,-</sub>
-                                    <sup>$ 3499,-</sup>
+                                    <h2 class="title h4"><a href="product.html">AC</a></h2>
+                                    <sub>Rp.4.000.000,-</sub>
+                                    <sup>Rp.3.500.000,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -151,12 +152,12 @@
                                 <span class="label label-warning">New</span>
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-3.png" alt="" width="360" />
+                                        <img src="assets/images/komputer.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Nude</a></h2>
-                                    <sup>$ 2999,-</sup>
+                                    <h2 class="title h4"><a href="product.html">Komputer</a></h2>
+                                    <sup>Rp.5.000.000,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -181,11 +182,11 @@
                             <div class="figure-grid">
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-4.png" alt="" width="360" />
+                                        <img src="assets/images/furnitur.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Aurora</a></h2>
+                                    <h2 class="title h4"><a href="product.html">Furniture</a></h2>
                                     <sup>$ 299,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
@@ -212,11 +213,11 @@
                                 <span class="label label-info">-50%</span>
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-5.png" alt="" width="360" />
+                                        <img src="assets/images/renovasi.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Dining set</a></h2>
+                                    <h2 class="title h4"><a href="product.html">Renovasi Rumah</a></h2>
                                     <sub>$ 1999,-</sub>
                                     <sup>$ 1499,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
@@ -243,11 +244,11 @@
                             <div class="figure-grid">
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/product-6.png" alt="" width="360" />
+                                        <img src="assets/images/bangunrumah.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Seat chair</a></h2>
+                                    <h2 class="title h4"><a href="product.html">Bangun Rumah</a></h2>
                                     <sup>$ 896,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>

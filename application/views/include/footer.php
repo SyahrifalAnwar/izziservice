@@ -15,10 +15,7 @@
                             <a target="_blank" href="https://g.page/izzi-soft-official?share" class="btn btn-clean"><span class="icon icon-map-marker"></span> Get directions</a>
                             <div class="call-us h4"><span class="icon icon-phone-handset"></span> 0819-2001-233</div>
                         </div>
-                    </div>
-                </div>
-
-                <!--footer links-->
+                        <!--footer links-->
                 <div class="footer-links">
                     <div class="row">
                         <div class="col-sm-4 col-md-2">
@@ -55,13 +52,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!--footer social-->
 
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" target="_blank"><i class="fa fa-download"></i> Download Mobel</a> &nbsp; | <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="#">Privacy policy</a>
+                            <a href="#" target=""><i class="fa fa-download"></i> Download Mobel</a> &nbsp; | <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="#">Privacy policy</a>
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
