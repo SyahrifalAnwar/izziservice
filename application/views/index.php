@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <?php $this->load->view('include/head'); ?>
@@ -28,13 +28,13 @@
             <!-- === header === -->
             
 
-           <!--  <header class="hidden">
+            <header class="hidden">
                 <h2>Kategori Terpopuler</h2>
             </header>
 
             <div class="container">
 
-                <div class="owl-icons"> -->
+                <div class="owl-icons">
 
                     <!-- === icon item === -->
 <!-- <?php foreach ($get_kategori as $key => $get_kategori) {?>
@@ -87,13 +87,14 @@
                                 <i class="icon icon-cart"></i>
                             </div>
                             <div class="figure-grid">
+                                <span class="label label-warning">New</span>
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/cctv.png" alt="" width="360" />
+                                        <img src="assets/images/CCTV.png" alt="" width="360" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h2 class="title h4"><a href="product.html">CCTV</a></h2>
+                                    <h2 class="title h4"><a href="cctv.png">CCTV</a></h2>
                                     <sub>Rp.500.000,-</sub>
                                     <sup>Rp.300.000,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
@@ -118,6 +119,7 @@
                                 <i class="icon icon-cart"></i>
                             </div>
                             <div class="figure-grid">
+                                <span class="label label-warning">New</span>
                                 <div class="image">
                                     <a href="#productid1" class="mfp-open">
                                         <img src="assets/images/ac.png" alt="" width="360" />
@@ -187,7 +189,8 @@
                                 </div>
                                 <div class="text">
                                     <h2 class="title h4"><a href="product.html">Furniture</a></h2>
-                                    <sup>$ 299,-</sup>
+                                    <sup>Rp.300.000 -</sup>
+                                    <sup>Rp.1.000.000</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -218,8 +221,8 @@
                                 </div>
                                 <div class="text">
                                     <h2 class="title h4"><a href="product.html">Renovasi Rumah</a></h2>
-                                    <sub>$ 1999,-</sub>
-                                    <sup>$ 1499,-</sup>
+                                    <sup>Rp1.500.000,-</sup>
+                                    <sup>Rp3.000.000,-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -249,7 +252,7 @@
                                 </div>
                                 <div class="text">
                                     <h2 class="title h4"><a href="product.html">Bangun Rumah</a></h2>
-                                    <sup>$ 896,-</sup>
+                                    <sup>-</sup>
                                     <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
                                 </div>
                             </div>
@@ -271,42 +274,25 @@
                         <!-- === popup-title === -->
 
                         <div class="popup-title">
-                            <div class="h1 title">Laura <small>product category</small></div>
+                            <div class="h1 title">IZZI<small>product category</small></div>
                         </div>
 
                         <!-- === product gallery === -->
 
                         <div class="owl-product-gallery">
-                            <img src="assets/images/product-1.png" alt="" width="640" />
-                            <img src="assets/images/product-2.png" alt="" width="640" />
-                            <img src="assets/images/product-3.png" alt="" width="640" />
-                            <img src="assets/images/product-4.png" alt="" width="640" />
+                            <img src="assets/images/CCTV.png" alt="" width="640" />
+                            <img src="assets/images/ac.png" alt="" width="640" />
+                            <img src="assets/images/komputer.png" alt="" width="640" />
+                            <img src="assets/images/furnitur.png" alt="" width="640" />
+                            <img src="assets/images/renovasi.png" alt="" width="640" />
+                            <img src="assets/images/bangunrumah.png" alt="" width="640" />
                         </div>
 
                         <!-- === product-popup-info === -->
 
                         <div class="popup-content">
                             <div class="product-info-wrapper">
-                                <div class="row">
-
-                                    <!-- === left-column === -->
-
-                                    <div class="col-sm-6">
-                                        <div class="info-box">
-                                            <strong>Maifacturer</strong>
-                                            <span>Brand name</span>
-                                        </div>
-                                        <div class="info-box">
-                                            <strong>Materials</strong>
-                                            <span>Wood, Leather, Acrylic</span>
-                                        </div>
-                                        <div class="info-box">
-                                            <strong>Availability</strong>
-                                            <span><i class="fa fa-check-square-o"></i> in stock</span>
-                                        </div>
-                                    </div>
-
-                                    <!-- === right-column === -->
+                                <div class="row">    
 
                                     <div class="col-sm-6">
                                         <div class="info-box">
@@ -319,28 +305,11 @@
                                                 <span class="color-btn color-btn-biege"></span>
                                             </div>
                                         </div>
-                                        <div class="info-box">
-                                            <strong>Choose size</strong>
-                                            <div class="product-colors clearfix">
-                                                <span class="color-btn color-btn-biege">S</span>
-                                                <span class="color-btn color-btn-biege checked">M</span>
-                                                <span class="color-btn color-btn-biege">XL</span>
-                                                <span class="color-btn color-btn-biege">XXL</span>
-                                            </div>
-                                        </div>
                                     </div>
-
                                 </div> <!--/row-->
                             </div> <!--/product-info-wrapper-->
                         </div> <!--/popup-content-->
                         <!-- === product-popup-footer === -->
-
-                        <div class="popup-table">
-                            <div class="popup-cell">
-                                <div class="price">
-                                    <span class="h3">$ 1999,00 <small>$ 2999,00</small></span>
-                                </div>
-                            </div>
                             <div class="popup-cell">
                                 <div class="popup-buttons">
                                     <a href="product.html"><span class="icon icon-eye"></span> <span class="hidden-xs">View more</span></a>

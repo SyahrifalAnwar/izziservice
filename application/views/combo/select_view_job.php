@@ -1,6 +1,6 @@
 <table class="table" width="100%">
 <tr>
-<th><php echo </th>
+<th><php echo ></th>
 <th>Kategori</th>
 <th>Sub Kategori</th>
 <th>Reported</th>

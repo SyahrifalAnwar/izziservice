@@ -125,10 +125,10 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
         $this->load->library('CI_HTML2PDF');
         try
         {
-            $html2pdf = new html2pdf('L', 'A4', 'en');
-            $html2pdf->pdf->SetDisplayMode('fullpage');
-            $html2pdf->writeHTML($content, isset($_GET['vuehtml']));
-            $html2pdf->Output('Report_ppic.pdf');
+            $ci_html2pdf = new ci_html2pdf('L', 'A4', 'en');
+            $ci_html2pdf->pdf->SetDisplayMode('fullpage');
+            $ci_html2pdf->writeHTML($content, isset($_GET['vuehtml']));
+            $ci_html2pdf->Output('Report_ppic.pdf');
         }
         catch(html2pdf_exception $e) {
             echo $e;

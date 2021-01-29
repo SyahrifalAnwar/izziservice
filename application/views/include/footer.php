@@ -57,20 +57,21 @@
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="#" target=""><i class="fa fa-download"></i> Download Mobel</a> &nbsp; | <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="#">Privacy policy</a>
-                        </div>
+                            <a href="#" target=""><i class="fa fa-download"></i> Download brosur</a> &nbsp; | <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="https://izzi-soft.com/privacy_policy.html">Privacy policy</a>
+                        </div>               
                         <div class="col-sm-6 links">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/izzisoft"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/izzisoft"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCzhxxz7yf1sOsw5X05Lqvhw"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/izzisoft/"><i class="fa 
+                                fa-instagram"></i></a></li>
+                                <br><br>
+                                <p>© Copyright 2021 IZZI SERVICE, All Rights Reserved</p>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-
     </div> <!--/wrapper-->

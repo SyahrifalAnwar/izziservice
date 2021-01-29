@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Page';
 $route['client'] = 'karyawan';
 $route['client/(:any)'] = 'karyawan/$1';
+$route['client/(:any)/(:any)'] = 'karyawan/$1/$1';
 $route['register'] = 'login/register';
 $route['404_override'] = 'Errors/C404';
 $route['translate_uri_dashes'] = FALSE;
