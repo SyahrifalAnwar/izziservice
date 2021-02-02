@@ -38,7 +38,7 @@
 							
 							<button style="width: 100%" type="submit" class="btn btn-primary">Login</button>
 							<br>
-							<a href="<?php echo base_url('forget_password') ?>">Forget Password</a>
+							<a href="<?php echo base_url('forget_password/index') ?>">Forget Password</a>
 							<br>
 							<a href="<?php echo base_url('register') ?>">Registrasi</a>
 						

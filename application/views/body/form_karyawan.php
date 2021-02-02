@@ -96,7 +96,7 @@
 					<div class="panel-body">
 						
 					<div class="col-md-6">
-					<form method="post" action="<?php echo base_url();?><?php echo $url;?>">
+					<form method="post" action="<?php echo base_url('karyawan/save');?>">
 
 					<input type="hidden" class="form-control" name="nik" value="<?php echo $nik;?>">
 
@@ -117,8 +117,13 @@
 					</div>
 
 					<div class="form-group">
-						<label>Gender</label>
-						<?php echo form_dropdown('id_jk',$dd_jk, $id_jk, ' id="id_jk" required class="form-control"');?>
+						<label for="jk"><p color=#999>Gender</p></label>			
+					     <select required="" name="jenis_kelamin" class="form-control" id="jk">
+					     	<option value=""><?php echo $id_jk;?></option>
+					     	<option value="PRIA">PRIA</option>
+					     	<option value="WANITA">WANITA</option>
+
+					     </select>
 					</div>
 
 					<div class="form-group">

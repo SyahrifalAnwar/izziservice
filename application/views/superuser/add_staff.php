@@ -111,9 +111,14 @@
 					</div>
 
 
-					<div class="form-group">
-						<label>Gender</label>
-						<?php echo form_dropdown('id_jk',$dd_jk, $id_jk, ' id="id_jk" required class="form-control"');?>
+							<div class="form-group">
+						<label for="jk"><p color=#999>Jenis Kelamin</p></label>			
+					     <select required="" name="jenis_kelamin" class="form-control" id="jk">
+					     	<option value=""></option>
+					     	<option value="PRIA">PRIA</option>
+					     	<option value="WANITA">WANITA</option>
+
+					     </select>
 					</div>
 
 					<div class="form-group">

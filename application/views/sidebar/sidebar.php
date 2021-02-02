@@ -1,7 +1,7 @@
 <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
    <ul class="nav menu">
       <?php if($this->session->userdata('level')=="SUPERUSER"){?>
-      <li class="active">
+      <li  <?php if( $this->uri->segment(1) == null){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>home">
             <svg class="glyph stroked dashboard-dial">
                <use xlink:href="#stroked-dashboard-dial"></use>
@@ -9,7 +9,7 @@
             Dashboard
          </a>
       </li>
-      <li>
+      <li <?php if( $this->uri->segment(1) == 'superuser'  && $this->uri->segment(2) == 'list_user'){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>superuser/list_user">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>
@@ -17,7 +17,7 @@
             ADMIN ACCOUNT
          </a>
       </li>
-      <li>
+      <li <?php if( $this->uri->segment(1) == 'superuser' && $this->uri->segment(2) == 'list_superuser' ){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>superuser/list_superuser">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>
@@ -25,7 +25,7 @@
             DATA SUPERUSER
          </a>
       </li>
-      <li>
+      <li <?php if( $this->uri->segment(1) == 'superuser'  && $this->uri->segment(2) == 'history_log'){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>superuser/history_log">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>

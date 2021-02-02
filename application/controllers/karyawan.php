@@ -154,7 +154,7 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
 	$nik = $getkodekaryawan;
 
  	$nama = strtoupper(trim($this->input->post('nama')));
- 	$jk = strtoupper(trim($this->input->post('id_jk')));
+ 	$jk =  $this->input->post('jenis_kelamin');
     $email = $this->input->post('email');
  	$alamat = strtoupper(trim($this->input->post('alamat')));
  	$id_bagian_dept = strtoupper(trim($this->input->post('id_departemen')));
