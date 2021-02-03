@@ -44,7 +44,7 @@
 					<div class="panel-body">
 						
 					<div class="col-md-6">
-					<form method="post" action="<?php echo base_url('karyawan/save');?>">
+					<form method="post" action="<?php echo base_url('superuser/update');?>">
 
 					<input type="hidden" class="form-control" name="nik" value="<?php echo $nik;?>">
 
@@ -61,7 +61,7 @@
 					<div class="form-group">
 						<label for="jk"><p color=#999>Jenis Kelamin</p></label>			
 					     <select required="" name="jenis_kelamin" class="form-control" id="jk">
-					     	<option value=""><?= $id_jk;?></option>
+					     	<option value="<?= $id_jk;?>"><?= $id_jk;?></option>
 					     	<option value="PRIA">PRIA</option>
 					     	<option value="WANITA">WANITA</option>
 

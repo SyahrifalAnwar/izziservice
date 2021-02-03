@@ -1,7 +1,7 @@
 <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
    <ul class="nav menu">
       <?php if($this->session->userdata('level')=="SUPERUSER"){?>
-      <li  <?php if( $this->uri->segment(1) == null){echo "class='active'";} ?>>
+      <li  <?php if( $this->uri->segment(1) == 'superuser' && $this->uri->segment(2) == ''){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>home">
             <svg class="glyph stroked dashboard-dial">
                <use xlink:href="#stroked-dashboard-dial"></use>
@@ -9,7 +9,7 @@
             Dashboard
          </a>
       </li>
-      <li <?php if( $this->uri->segment(1) == 'superuser'  && $this->uri->segment(2) == 'list_user'){echo "class='active'";} ?>>
+      <li <?php if( $this->uri->segment(1) == 'superuser'  && $this->uri->segment(2) == 'list_user' || $this->uri->segment(2) == 'add' || $this->uri->segment(2) == 'edit' ){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>superuser/list_user">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>
@@ -17,7 +17,7 @@
             ADMIN ACCOUNT
          </a>
       </li>
-      <li <?php if( $this->uri->segment(1) == 'superuser' && $this->uri->segment(2) == 'list_superuser' ){echo "class='active'";} ?>>
+      <li <?php if( $this->uri->segment(1) == 'superuser' && $this->uri->segment(2) == 'list_superuser' || $this->uri->segment(2) == 'user_add' || $this->uri->segment(2) == 'user_edit'  ){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>superuser/list_superuser">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>
@@ -182,7 +182,7 @@
       </li <?php if( $this->uri->segment(1) == 'level'){echo "class='active'";} ?>>
       <?php 
          }else if($this->session->userdata('level')=="TEKNISI"){?>
-      <li class="active">
+      <li <?php if ($this->uri->segment(1) == 'home'){ echo 'class="active"';}?>>
          <a href="<?php echo base_url();?>home">
             <svg class="glyph stroked dashboard-dial">
                <use xlink:href="#stroked-dashboard-dial"></use>
@@ -205,17 +205,17 @@
             </svg>
             News
          </a>
-      </li <?php if( $this->uri->segment(1) == 'level'){echo "class='active'";} ?>>
+      </li >
       <?php }else if($this->session->userdata('level')=="USER"){?>
-      <li class="active">
+      <li <?php if( $this->uri->segment(1) == 'home'){echo "class='active'";} ?> >
          <a href="<?php echo base_url();?>home">
             <svg class="glyph stroked dashboard-dial">
                <use xlink:href="#stroked-dashboard-dial"></use>
             </svg>
             Dashboard
          </a>
-      </li <?php if( $this->uri->segment(1) == 'ticket'){echo "class='active'";} ?>>
-      <li class="active">
+      </li>
+      <li  <?php if( $this->uri->segment(1) == 'ticket'){echo "class='active'";}?>>
          <a href="<?php echo base_url();?>ticket/add">
             <svg class="glyph stroked open folder">
                <use xlink:href="#stroked-open-folder"/>

@@ -60,16 +60,16 @@
 			<div class="col-lg-12">
 				<div class="panel panel-default">
 					<div class="panel-heading"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
-<a href="#" style="text-decoration:none">Add User</a></div>
+<a href="#" style="text-decoration:none">Add Useer</a></div>
 					<div class="panel-body">
 						
 					<div class="col-md-6">
-					<form method="post" action="<?php echo base_url();?><?php echo $url;?>">
+					<form method="post" action="<?php echo base_url('superuser/user_save');?>">
 
 					<input type="hidden" class="form-control" name="id_user" value="<?php echo $id_user;?>">
 
 					<div class="form-group">
-						<label>User Name</label>
+						<label>Username</label>
 						<input type="text" maxlength="10" class="form-control" name="id_karyawan" value="<?php echo $id_karyawan;?>">
 					</div>
 

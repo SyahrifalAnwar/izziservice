@@ -91,7 +91,7 @@ function __construct(){
         $data['sidebar'] = "sidebar/sidebar";
         $data['body'] = "superuser/form_user";
 
-        $data['dd_karyawan'] = $this->Model_app->dropdown_karyawan();
+      $data['dd_karyawan'] = $this->Model_app->dropdown_karyawan();
     $data['id_karyawan'] = "";
 
     $data['dd_level'] = $this->Model_app->dropdown_level();
@@ -128,7 +128,7 @@ function __construct(){
       $data['header'] = "header/header";
         $data['navbar'] = "navbar/navbar";
         $data['sidebar'] = "sidebar/sidebar";
-        $data['body'] = "superuser/form_user";
+        $data['body'] = "body/form_user_update";
 
         $id_dept = trim($this->session->userdata('id_dept'));
         $id_user = trim($this->session->userdata('id_user'));
@@ -176,7 +176,7 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
  {
 
   $id_user = strtoupper(trim($this->input->post('id_user')));
-    $password = $this->input->post('password');
+  $password = $this->input->post('password');
    
 
   $id_level = strtoupper(trim($this->input->post('id_level')));
@@ -281,9 +281,9 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
 
     public function save()
     {
-      $getkodekaryawan = $this->Model_app->getkodekaryawan_su();
+    $getkodekaryawan = $this->Model_app->getkodekaryawan_su();
   
-  $nik = $getkodekaryawan;
+    $nik = $getkodekaryawan;
 
     $nama = strtoupper(trim($this->input->post('nama')));
     $jk = $this->input->post('jenis_kelamin');
@@ -397,9 +397,9 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
  {
 
   $nik = strtoupper(trim($this->input->post('nik')));
-    $email = $this->input->post('email');
+  $email = $this->input->post('email');
   $nama = strtoupper(trim($this->input->post('nama')));
-  $jk = strtoupper(trim($this->input->post('id_jk')));
+  $jk =  $this->input->post('jenis_kelamin');
   $alamat = strtoupper(trim($this->input->post('alamat')));
   $id_jabatan = strtoupper(trim($this->input->post('id_jabatan')));
   $id_bagian_dept = strtoupper(trim($this->input->post('id_departemen')));

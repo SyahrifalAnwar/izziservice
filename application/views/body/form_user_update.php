@@ -60,7 +60,7 @@
 			<div class="col-lg-12">
 				<div class="panel panel-default">
 					<div class="panel-heading"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
-<a href="#" style="text-decoration:none">Add User</a></div>
+<a href="#" style="text-decoration:none">Edit User</a></div>
 					<div class="panel-body">
 						
 					<div class="col-md-6">
@@ -71,7 +71,7 @@
 					<?php if($flag=="edit")
 					{}else{?>
 					<div class="form-group">
-						<label>User Name</label>
+						<label>Username</label>
 						<?php echo form_dropdown('id_karyawan',$dd_karyawan, $id_karyawan, ' id="id_karyawan" required class="form-control"');?>
 					</div>
 

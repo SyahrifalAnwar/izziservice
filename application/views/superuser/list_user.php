@@ -19,7 +19,7 @@
 						    <thead>
 						    <tr>
 						        <th data-field="no" data-sortable="true" width="10px">No</th>
-						        <th data-field="id" data-sortable="true">Nike</th>
+						        <th data-field="id" data-sortable="true">Nik</th>
 						        <th data-field="nama" data-sortable="true">Name</th>
 						        <th data-field="alamat" data-sortable="true">Address</th>
 						        <th data-field="jenis_kelamin" data-sortable="true">Jenis Kelamin</th>
