@@ -96,7 +96,7 @@
 					<div class="panel-body">
 						
 					<div class="col-md-6">
-					<form method="post" action="<?php echo base_url('karyawan/save');?>">
+					<form method="post" action="<?php echo base_url();?><?php echo $url;?>">
 
 					<input type="hidden" class="form-control" name="nik" value="<?php echo $nik;?>">
 
@@ -111,20 +111,18 @@
 					</div>
 
 					<div class="form-group">
-						<label>Password</label>
+						<label>Passwords</label>
 						<input id="password" type="name" class="form-control" name="password" value="<?php echo $password;?>">
 						<a class="btn btn-info" onclick='document.getElementById("password").value = Password.generate(16)' >Generate Password</a>
 					</div>
-
+					<!-- <div class="form-group">
+						<label>Department</label>
+						<?php echo form_dropdown('id_departemen',$dd_departemen, $id_departemen, ' id="id_departemen" name="nama_dept" required class="form-control"');?>
+					<div class="form-group"> -->
+						<div class="form-group">
+						<label>Jenis Kelamin</label>
+						<?php echo form_dropdown('id_jk',$dd_jk, $id_jk, ' id="id_jk" name="id_jk" required class="form-control"');?>
 					<div class="form-group">
-						<label for="jk"><p color=#999>Gender</p></label>			
-					     <select required="" name="jenis_kelamin" class="form-control" id="jk">
-					     	<option value=""><?php echo $id_jk;?></option>
-					     	<option value="PRIA">PRIA</option>
-					     	<option value="WANITA">WANITA</option>
-
-					     </select>
-					</div>
 
 					<div class="form-group">
 						<label>Address</label>

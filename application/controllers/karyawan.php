@@ -213,7 +213,7 @@ $sql_approvalticket = "SELECT COUNT(A.id_ticket) AS jml_approval_ticket FROM tic
 
  	    $data['header'] = "header/header";
         $data['navbar'] = "navbar/navbar";
-        $data['sidebar'] = "sidebar/sidebar";
+        $data['sidebar'] = "sidebar/sidebar"; 
         $data['body'] = "body/form_karyawan";
 
         $sql = "SELECT * FROM karyawan as A 

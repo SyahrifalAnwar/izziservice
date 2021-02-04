@@ -78,13 +78,18 @@ function __construct(){
  	    $data['header'] = "header/header";
         $data['navbar'] = "navbar/navbar";
         $data['sidebar'] = "sidebar/sidebar";
-        $data['body'] = "body/form_user";
+        $data['body'] = "body/form_add_user";
 
         $data['dd_karyawan'] = $this->Model_app->dropdown_karyawan();
 		$data['id_karyawan'] = "";
 
 		$data['dd_level'] = $this->Model_app->dropdown_level();
 		$data['id_level'] = "";
+
+        $data['dd_departemen'] = $this->Model_app->dropdown_departemen();
+        $data['id_departemen'] = $row->id_dept;
+
+
 
 		$data['password'] = "";
 		$data['id_user'] = "";
@@ -147,7 +152,7 @@ function __construct(){
  	    $data['header'] = "header/header";
         $data['navbar'] = "navbar/navbar";
         $data['sidebar'] = "sidebar/sidebar";
-        $data['body'] = "body/form_user";
+        $data['body'] = "body/form_edit_user";
 
         $id_dept = trim($this->session->userdata('id_dept'));
         $id_user = trim($this->session->userdata('id_user'));
@@ -170,15 +175,19 @@ function __construct(){
 
         //end notification
 
-        $sql = "SELECT * FROM user WHERE id_user = '$id'";
+        $sql = "SELECT * FROM user as A
+        LEFT JOIN karyawan as B ON A.username = B.nik WHERE id_user = '$id'";
 		$row = $this->db->query($sql)->row();
 
 		$data['url'] = "user/update";
 			
 		$data['dd_karyawan'] = $this->Model_app->dropdown_karyawan();
 		$data['id_karyawan'] = $row->username;
+        $data['nama'] = $row->nama;
 		$data['dd_level'] = $this->Model_app->dropdown_level();
 		$data['id_level'] = $row->level;
+        $data['dd_departemen'] = $this->Model_app->dropdown_departemen();
+        $data['id_departemen'] = $row->id_dept;
 
 		$data['password'] = "";
 		$data['id_user'] = $row->id_user;

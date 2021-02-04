@@ -233,34 +233,37 @@ function view_progress_teknisi($id)
 
 public function pdflistticket()
 {
-    //error_reporting(0);
-    echo(base_url().'asset/html2pdf-4.03/ci_html2pdf.class.php');
+      require_once('./asset/html2pdf-4.03/ci_html2pdf.class.php');
+       $this->load->library('CI_HTML2PDF');
 
-    require_once(base_url().'asset/html2pdf-4.03/ci_html2pdf.class.php');
-
-    $this->load->model('Model_app');
+        $this->load->model('Model_app');
     
-    $datalist_ticket = $this->Model_app->datalist_ticket();
-    $data['datalist_ticket'] = $datalist_ticket;
+    $datakaryawan = $this->Model_app->datakaryawan();
+        $data['datalist_ticket'] = $datakaryawan;
     
     
     ob_start();
-    $content = $this->load->view('body/pdflistticket',$data);
-    $content = ob_get_clean();      
-    $this->load->library('CI_HTML2PDF');
-    try
-    {
-        $html2pdf = new html2pdf('L', 'A4', 'en');
-        $html2pdf->pdf->SetDisplayMode('fullpage');
-        $html2pdf->writeHTML($content, isset($_GET['vuehtml']));
-        $html2pdf->Output('Report_ppic.pdf');
-    }
-    catch(html2pdf_exception $e) {
-        echo $e;
-        exit;
-    }
-    
-}
+        $content = $this->load->view('body/pdflistticket',$data);
+        $content = ob_get_clean();      
+       
+        try
+        {
+            $html2pdf = new ci_html2pdf('L', 'A4', 'en');
+            $html2pdf->pdf->SetDisplayMode('fullpage');
+            $html2pdf->writeHTML($content, isset($_GET['vuehtml']));
+            $html2pdf->Output('Report_ppic.pdf');
+        }
+        catch(ci_html2pdf_exception $e) {
+            echo $e;
+            exit;
+        }
+ }
+
+
+
+
+
+
 public function csvlist_ticket()
 {
 

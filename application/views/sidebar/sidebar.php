@@ -84,7 +84,7 @@
             Assigment Ticket (<?php if(empty($notif_assignment)) { echo "0"; }else{ echo $notif_assignment;} ?>)
          </a>
       </li>
-      <li <?php if( $this->uri->segment(1) == 'client'){echo "class='active'";} ?>>
+      <li <?php if( $this->uri->segment(1) == 'client' || $this->uri->segment(1) == 'karyawan' ){echo "class='active'";} ?>>
          <a href="<?php echo base_url();?>client/karyawan_list">
             <svg class="glyph stroked calendar">
                <use xlink:href="#stroked-male-user"></use>
