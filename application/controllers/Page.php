@@ -12,8 +12,12 @@ class Page extends CI_Controller {
 		$this->load->view('index', $data);
 	}
 
-	public function kategori($value='')
+	public function kategori($id='')
 	{
-		# code...
+		$this->load->model('Model_app');
+		$data = array(
+			'get_kategori' => $this->Model_app->get_kategori(), 
+		);
+		$this->load->view('detail_kategori', $data);
 	}
 }

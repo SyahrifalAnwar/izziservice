@@ -55,11 +55,12 @@
     
 };
 			</script>
-		
+	
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
 					<div class="panel-heading"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
+
 <a href="#" style="text-decoration:none">Tambah User</a></div>
 					<div class="panel-body">
 						
@@ -80,18 +81,24 @@
 						<input type="email" class="form-control" name="email" value="<?php echo $email;?>">
 					</div>
 					<?php }?> -->
+
 						<div class="form-group">
 						<label for="username">Username</label>
-						<input type="text" class="form-control" placeholder="Username" name="email" value="<?php echo $email;?>" id="username" autofocus="" autocomplete="off">
+						<input type="text" class="form-control" placeholder="Username" name="username" value="<?php echo $username;?>" id="username" autofocus="" autocomplete="off">
 					</div>
 						<div class="form-group">
 						<label for="name">Name</label>
-						<input type="text" class="form-control" placeholder="Name" name="email" value="<?php echo $email;?>" id="name" autocomplete="off">
+						<input type="text" class="form-control" placeholder="Name" name="nama" value="<?php echo $name;?>" id="name" autocomplete="off">
+					</div>
+
+					<div class="form-group">
+						<label>Email</label>
+						<input type="email" class="form-control" name="email" value="<?php echo $email;?>">
 					</div>
 
 					<div class="form-group"> 
 						<label for="">Password</label>
-						<input id="password" type="name" class="form-control" placeholder="**********" name="password" value="<?php echo $password;?>" autocomplete="off">
+						<input id="password" type="text" class="form-control" placeholder="**********" name="password" value="<?php echo $password;?>" autocomplete="off">
 						<a class="btn btn-info" onclick='document.getElementById("password").value = Password.generate(16)' >Generate Password</a>
 					</div>
 					<div class="form-group">
@@ -100,12 +107,9 @@
 						
 					</div>
 
-
-					
-
 					<div class="form-group">
 						<label for="">Level</label>
-						<?php echo form_dropdown('id_level',$dd_level, $id_level, ' id="id_level" required class="form-control"');?>
+						<?php echo form_dropdown('id_level',$dd_level, $id_level, ' id="id_level" name="id_level"  required class="form-control"');?>
 					</div>
 
 					<button type="submit" class="btn btn-primary">Simpan</button>
@@ -119,5 +123,8 @@
 				</div>
 			</div>
 		</div><!--/.row-->	
+
+
+
 		
 		

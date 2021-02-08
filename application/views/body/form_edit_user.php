@@ -67,6 +67,9 @@
 					<form action="<?php echo base_url();?><?php echo $url;?>" method="POST">
 
 					<input type="hidden" class="form-control" name="id_user" value="<?php echo $id_user;?>">
+						<input type="hidden" class="form-control" name="nik" value="<?php echo $nik;?>">
+
+
 
 			<!-- 		<?php if($flag=="edit")
 					{}else{?>
@@ -82,11 +85,11 @@
 					<?php }?> -->
 						<div class="form-group">
 						<label for="username">Username</label>
-						<input type="text" class="form-control"  name="email" value="<?php echo $id_karyawan;?>" id="username" autofocus="" autocomplete="off">
+						<input type="text" class="form-control"  name="username" value="<?php echo $id_karyawan;?>" id="username" autofocus="" autocomplete="off">
 					</div>
 						<div class="form-group">
 						<label for="name">Name</label>
-						<input type="text" class="form-control"  name="email" value="<?php echo $nama;?>" id="name" autocomplete="off">
+						<input type="text" class="form-control"  name="nama" value="<?php echo $nama;?>" id="name" autocomplete="off">
 					</div>
 
 					<div class="form-group"> 
@@ -94,7 +97,7 @@
 						<input id="password" type="name" class="form-control"  name="password" placeholder="********"value="<?php echo $password;?>" autocomplete="off">
 						<a class="btn btn-info" onclick='document.getElementById("password").value = Password.generate(16)' >Generate Password</a>
 					</div>
-					<div class="form-group">
+						<div class="form-group">
 						<label>Department</label>
 						<?php echo form_dropdown('id_departemen',$dd_departemen, $id_departemen, ' id="id_departemen" name="nama_dept" required class="form-control"');?>
 						

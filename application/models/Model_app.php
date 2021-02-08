@@ -458,8 +458,8 @@ public function datamyticketcsv($id)
     public function dropdown_jk()
     {
         $value[''] = '--SELECT--';            
-        $value['PRIA'] = 'MAN';
-        $value['WANITA'] = 'WOMEN';           
+        $value['PRIA'] = 'PRIA';
+        $value['WANITA'] = 'WANITA';           
             
             return $value;
     }

@@ -109,9 +109,11 @@ function __construct(){
 	
 	$id_user = $getkodeuser;
 
- 	$id_karyawan = strtoupper(trim($this->input->post('id_karyawan')));
+ 	$id_karyawan = strtoupper(trim($this->input->post('username')));
+    $nama = strtoupper(trim($this->input->post('nama')));
  	$password = $this->input->post('password');
-    $email = strtoupper(trim($this->input->post('email')));
+    $email = $this->input->post('email');
+    $id_bagian_dept = strtoupper(trim($this->input->post('id_departemen')));
  	$id_level = strtoupper(trim($this->input->post('id_level')));
 
 
@@ -120,13 +122,19 @@ function __construct(){
     $data['email'] = $email;
  	$data['password'] = md5($password);
  	$data['level'] = $id_level;
+
+    $dk = array(
+        'nik' => $id_karyawan,
+        'nama '=> $nama,
+        'id_bagian_dept '=> $id_bagian_dept,
+         'id_jabatan '=> $id_level,
+        'email '=> $email, );
  	
-
- 	$this->db->trans_start();
-
  	$this->db->insert('user', $data);
 
- 	$this->db->trans_complete();
+    $this->db->trans_start();
+    $this->db->insert('karyawan', $dk);
+    $this->db->trans_complete();
 
  	if ($this->db->trans_status() === FALSE)
 			{
@@ -187,10 +195,11 @@ function __construct(){
 		$data['dd_level'] = $this->Model_app->dropdown_level();
 		$data['id_level'] = $row->level;
         $data['dd_departemen'] = $this->Model_app->dropdown_departemen();
-        $data['id_departemen'] = $row->id_dept;
+        $data['id_departemen'] = $row->id_bagian_dept;
 
 		$data['password'] = "";
 		$data['id_user'] = $row->id_user;
+        $data['nik'] = $row->nik;
 
 		$data['flag'] = "edit";
 
@@ -201,24 +210,35 @@ function __construct(){
  function update()
  {
 
- 	$id_user = strtoupper(trim($this->input->post('id_user')));
+    $id_user = strtoupper(trim($this->input->post('id_user')));
+    $nik = strtoupper(trim($this->input->post('nik')));
+    $username = strtoupper(trim($this->input->post('username')));
+    $id_karyawan=strtoupper(trim($this->input->post('id_karyawan')));
+    $nama= strtoupper(trim($this->input->post('nama')));
+    $id_bagian_dept = $this->input->post('id_departemen');
     $password = $this->input->post('password');
-   
-
- 	$id_level = strtoupper(trim($this->input->post('id_level')));
- 	$data['level'] = $id_level;
-    if ($password != NULL || $password != '') {
+    $id_level = strtoupper(trim($this->input->post('id_level')));   
+ 	
+    
+ 	    if ($password != NULL || $password != '') {
        $data['password'] = md5($password);
+    $this->db->set('password', $data['password']);
+    $this->db->set('username',$username);
+    $this->db->set('level',$id_level);
+    $this->db->where('id_user', $id_user);
+    $this->db->update('user');
     }else{
-        
+    $this->db->set('username',$username);
+    $this->db->set('level',$id_level);
+    $this->db->where('id_user', $id_user);
+    $this->db->update('user');
     }
  
-
+    $dk['nama'] = $nama;
+    $dk['id_bagian_dept'] = $id_bagian_dept;
  	$this->db->trans_start();
-
- 	$this->db->where('id_user', $id_user);
- 	$this->db->update('user', $data);
-
+    $this->db->where('nik', $nik);
+    $this->db->update('karyawan', $dk);
  	$this->db->trans_complete();
 
  	if ($this->db->trans_status() === FALSE)
