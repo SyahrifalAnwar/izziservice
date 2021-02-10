@@ -1,115 +1,38 @@
-        <nav class="navbar-fixed">
+<!-- <div class="app-header__inner contain"> -->
 
-            <div class="container">
+ <div class="app-header__inner contain">
 
-                <!-- ==========  Top navigation ========== -->
+                    <div class="top-line fixed-panel">
+                        <div class="top-line__section">
+                            <div class="top-line__inner">
+                                <div class="top-line__left">
+                                    <div class="logo">
+                                        <a href="/" class="logo__img"><img src="assets/images/logo.png" alt=""></a>
+                                    </div>
+                                    <!-- logo -->
+                                    <div class="contacts">
+                                        <a href="#home" class="contacts__phone">IZZI SERVICE</a>
+                                    </div>
+                                    <!-- contacts -->
+                                </div>
+                                <div class="top-line__right">
+                                    <button class="top-line__btn-burger btn-general js-btn-burger" type="button" data-remodal-target="mobile_panel"><i class="fas fa-bars"></i></button>
+                                    <div class="main-nav">
+                                        <div class="main-nav__nav">
+                                            <ul>
+                                                <li class="js-nav-to-anchor"><a href="#home">HOME</a></li>
+                                                <li class="js-nav-to-anchor"><a href="#projects">PRODUK</a></li>
+                                                <li class="js-nav-to-anchor"><a href="#contact">KONTAK</a></li>
 
-                <div class="navigation navigation-top clearfix">
-                    <ul>
-                        <!--add active class for current page-->
-
-                        <li><a href="javascript:void(0);" class="open-login"><i class="icon icon-user"></i> LOGIN</a></li>
-                    </ul>
-                </div> <!--/navigation-top-->
-
-                <!-- ==========  Main navigation ========== -->
-
-                <div class="navigation navigation-main">
-
-                    <!-- Setup your logo here-->
-
-                    <a href="<?= base_url() ?>" class="logo"><img src="assets/images/logo.png" alt="" /></a>
-
-                    <!-- Mobile toggle menu -->
-
-                    <a href="#" class="open-menu"><i class="icon icon-menu"></i></a>
-
-                    <!-- Convertible menu (mobile/desktop)-->
-
-                    <div class="floating-menu">
-
-                        <!-- Mobile toggle menu trigger-->
-
-                        <div class="close-menu-wrapper">
-                            <span class="close-menu"><i class="icon icon-cross"></i></span>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- main-nav -->
+                                    <button class="btn-general" data-remodal-target="call_back_form" type="button">LOGIN
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-
-                        <ul>
-                            <li><a href="<?php echo base_url() ?>">Home</a></li>
-                            
-                            <!-- Multi-content dropdown -->
-
-                            
-                            <!-- Single dropdown-->
-
-
-                            <!-- Furniture icons in dropdown-->
-
-                            <li> <a href="#">Service <span class="open-dropdown"><i
-                            class="fa fa-angle-down"></i></span></a> <div
-                            class="navbar-dropdown"> <div class="navbar-box">
-
-                                        <!-- box-1 (left-side)-->
-
-                                        <!-- box-2 (right-side)-->
-
-                                        <div class="box-2">
-                                            <div class="clearfix categories">
-                                                <div class="row">
-                                                    
-                                                    <!--icon item-->                                                
-<?php foreach ($get_kategori as $key => $get_kategori) {?>
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="<?php echo base_url('page/kategori/'). $get_kategori['id_kategori'] ?>">
-                                                            <figure>
-                                                                 <img style="width: 50px;margin-bottom: 30px;" src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ?>"/>
-                                                                <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                    <?php } ?>                
-                                                    <!--icon item-->                                                
-
-
-                                                </div> <!--/row-->
-                                            </div> <!--/categories-->
-                                        </div> <!--/box-2-->
-                                    </div> <!--/navbar-box-->
-                                </div> <!--/navbar-dropdown-->
-                            </li>
-
-                            <!-- Simple menu link-->
-
-                            <li><a href="<?= base_url('register') ?>">Daftar</a></li>
-                        </ul>
-                    </div> <!--/floating-menu-->
-                </div> <!--/navigation-main-->
-
-                <!-- ==========  Search wrapper ========== -->
-
-
-                <!-- ==========  Login wrapper ========== -->
-
-                <div class="login-wrapper">
-                    <form action="<?php echo base_url();?>login/login_akses" method="post">
-                        <div class="h4">Sign in</div>
-                        
-                        <?php echo $this->session->flashdata("msg");?>
-                        <div class="form-group">
-
-                            <input type="text" class="form-control" name="username" id="exampleInputEmail1" placeholder="Username/Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <a href="<?php echo base_url('forget_password') ?>" class="open-popup">Forgot password?</a>
-                            <a href="#createaccount" class="open-popup">Don't have an account?</a>
-                        </div>
-                        <button type="submit" class="btn btn-block btn-main">Submit</button>
-                    </form>
+                    </div>
+                    <!-- top-line -->
                 </div>
-
-               
-            </div> <!--/container-->
-        </nav>

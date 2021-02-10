@@ -1,456 +1,892 @@
- <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-<?php $this->load->view('include/head'); ?>
+<?php $this->view('include/head') ;?>
+<body class="app home">
 
-<body>
+<!--     <div class="mobile-panel">
+        <div class="mobile-panel__section">
+            <div class="logo">
+                <a href="/" class="logo__img"><img src="assets/images/logo.svg" alt=""></a>
+            </div> -->
+            <!-- logo -->
+            <!-- <button class="mobile-panel__btn-burger btn-general js-btn-burger" type="button" data-remodal-target="mobile_panel"><i class="fas fa-bars"></i></button>
+            <div class="mobile-panel__inner remodal" data-remodal-id="mobile_panel">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <div class="mobile-panel__content">
+                    <div class="logo">
+                        <a href="/" class="logo__img"><img src="assets/images/logo.svg" alt=""></a>
+                    </div> -->
+                    <!-- logo -->
+                   <!--  <div class="main-nav">
+                        <div class="main-nav__nav">
+                            <ul>
+                                <li class="js-nav-to-anchor"><a href="#home">HOME</a></li>
+                                <li class="js-nav-to-anchor"><a href="#projects">PROJECTS</a></li>
+                                <li class="js-nav-to-anchor"><a href="#contact">CONTACT</a></li>
 
-    <div class="page-loader"></div>
-
-    
-
-    <div class="wrapper">
-
-        <!--Use class "navbar-fixed" or "navbar-default" -->
-        <!--If you use "navbar-fixed" it will be sticky menu on scroll (only for large screens)-->
-
-        <!-- ======================== Navigation ======================== -->
-<?php $this->load->view('include/navbar'); ?>
-
-        <!-- ========================  Header content ======================== -->
-
-       <?php $this->load->view('include/slider'); ?>
-
-        <!-- ========================  Icons slider ======================== -->
-
-        <!-- <section class="owl-icons-wrapper owl-icons-frontpage"> -->
-
-            <!-- === header === -->
-            
-
-            <header class="hidden">
-                <h2>Kategori Terpopuler</h2>
-            </header>
-
-            <div class="container">
-
-                <div class="owl-icons">
-
-                    <!-- === icon item === -->
-<!-- <?php foreach ($get_kategori as $key => $get_kategori) {?>
-                    <a href="<?php echo base_url('page/kategori/'). $get_kategori['id_kategori'] ?>">
-                        <figure>
-                            <img style="width: 50px;margin-bottom: 30px;" src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ?>"/>
-                            <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
-                        </figure>
-                    </a>
-<?php } ?> -->
-                    <!-- === icon item === -->
-
-                   
-                </div> <!--/owl-icons-->
-            </div> <!--/container-->
-        </section>
-
-        <!-- ========================  Products widget ======================== -->
-
-        <section class="products">
-
-            <div class="container">
-
-                <!-- === header title === -->
-
-                <header>
-                    <div class="row">
-                        <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2 class="title">Kategori Terpopuler</h2>
+                            </ul>
                         </div>
-                    </div>
-                </header>
+                    </div> -->
+                    <!-- main-nav -->
+                   <!--  <div class="contacts">
+                        <a href="tel:101234547700" class="contacts__phone">+10 123 454 77 00</a>
+                    </div> -->
+                    <!-- contacts -->
+                   <!--  <button class="btn-general" data-remodal-target="call_back_form" type="button">CALL BACK</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- mobile-panel -->
 
-                <div class="row">
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-                    <!-- === product-item === -->
+    <div class="app__wrapper">
 
-                    <div class="col-md-4 col-xs-6">
+        <header id="home" class="app-header">
+            <div class="app-header__section full-contain light-bg">
+                <div class="v-lines">
+                    <div class="v-lines__inner"></div>
+                </div>
+                <!-- NAVBAR CONTAINT -->
+             <?php $this->view('include/navbar'); ?>
+             <!-- SLIDER CONTAINT -->
+              <?php $this->view('include/slider'); ?>
+                <!-- about-us -->
 
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite added">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <span class="label label-warning">New</span>
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/CCTV.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="cctv.png">CCTV</a></h2>
-                                    <sub>Rp.500.000,-</sub>
-                                    <sup>Rp.300.000,-</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- === product-item === -->
-
-                    <div class="col-md-4 col-xs-6">
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <span class="label label-warning">New</span>
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/ac.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="product.html">AC</a></h2>
-                                    <sub>Rp.4.000.000,-</sub>
-                                    <sup>Rp.3.500.000,-</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- === product-item === -->
-
-                    <div class="col-md-4 col-xs-6">
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <span class="label label-warning">New</span>
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/komputer.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Komputer</a></h2>
-                                    <sup>Rp.5.000.000,-</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- === product-item === -->
-
-                    <div class="col-md-4 col-xs-6">
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/furnitur.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Furniture</a></h2>
-                                    <sup>Rp.300.000 -</sup>
-                                    <sup>Rp.1.000.000</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- === product-item === -->
-
-                    <div class="col-md-4 col-xs-6">
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite added">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <span class="label label-info">-50%</span>
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/renovasi.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Renovasi Rumah</a></h2>
-                                    <sup>Rp1.500.000,-</sup>
-                                    <sup>Rp3.000.000,-</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- === product-item === -->
-
-                    <div class="col-md-4 col-xs-6">
-                        <article>
-                            <div class="info">
-                                <span class="add-favorite">
-                                    <a href="javascript:void(0);" data-title="Add to favorites" data-title-added="Added to favorites list"><i class="icon icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="#productid1" class="mfp-open" data-title="Quick wiew"><i class="icon icon-eye"></i></a>
-                                </span>
-                            </div>
-                            <div class="btn btn-add">
-                                <i class="icon icon-cart"></i>
-                            </div>
-                            <div class="figure-grid">
-                                <div class="image">
-                                    <a href="#productid1" class="mfp-open">
-                                        <img src="assets/images/bangunrumah.png" alt="" width="360" />
-                                    </a>
-                                </div>
-                                <div class="text">
-                                    <h2 class="title h4"><a href="product.html">Bangun Rumah</a></h2>
-                                    <sup>-</sup>
-                                    <span class="description clearfix">Gubergren amet dolor ea diam takimata consetetur facilisis blandit et aliquyam lorem ea duo labore diam sit et consetetur nulla</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                </div> <!--/row-->
-                <!-- === button more === -->
-
-
-                <!-- ========================  Product info popup - quick view ======================== -->
-
-                <div class="popup-main mfp-hide" id="productid1">
-
-                    <!-- === product popup === -->
-
-                    <div class="product">
-
-                        <!-- === popup-title === -->
-
-                        <div class="popup-title">
-                            <div class="h1 title">IZZI<small>product category</small></div>
+                <div class="our-services">
+                    <div class="our-services__section full-contain">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
                         </div>
-
-                        <!-- === product gallery === -->
-
-                        <div class="owl-product-gallery">
-                            <img src="assets/images/CCTV.png" alt="" width="640" />
-                            <img src="assets/images/ac.png" alt="" width="640" />
-                            <img src="assets/images/komputer.png" alt="" width="640" />
-                            <img src="assets/images/furnitur.png" alt="" width="640" />
-                            <img src="assets/images/renovasi.png" alt="" width="640" />
-                            <img src="assets/images/bangunrumah.png" alt="" width="640" />
-                        </div>
-
-                        <!-- === product-popup-info === -->
-
-                        <div class="popup-content">
-                            <div class="product-info-wrapper">
-                                <div class="row">    
-
-                                    <div class="col-sm-6">
-                                        <div class="info-box">
-                                            <strong>Available Colors</strong>
-                                            <div class="product-colors clearfix">
-                                                <span class="color-btn color-btn-red"></span>
-                                                <span class="color-btn color-btn-blue checked"></span>
-                                                <span class="color-btn color-btn-green"></span>
-                                                <span class="color-btn color-btn-gray"></span>
-                                                <span class="color-btn color-btn-biege"></span>
-                                            </div>
+                        <div class="our-services__inner contain">
+                            <h2 class="our-services__title title-general">LAYANAN <strong>KAMI</strong></h2>
+                            <div class="our-services__items">
+                                <div class="our-services__item our-item">
+                                    <div class="our-services__body">
+                                        <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
                                         </div>
+                                        <div class="our-services__content">
+                            <div class="our-services__name our-name">Pembangunan</div>
+                            <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                            <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                            <a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                        </div>
                                     </div>
-                                </div> <!--/row-->
-                            </div> <!--/product-info-wrapper-->
-                        </div> <!--/popup-content-->
-                        <!-- === product-popup-footer === -->
-                            <div class="popup-cell">
-                                <div class="popup-buttons">
-                                    <a href="product.html"><span class="icon icon-eye"></span> <span class="hidden-xs">View more</span></a>
-                                    <a href="javascript:void(0);"><span class="icon icon-cart"></span> <span class="hidden-xs">Buy</span></a>
+                                </div>
+                                <div class="our-services__item our-item">
+                                    <div class="our-services__body">
+                                        <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
+                                        </div>
+                                        <div class="our-services__content">
+                            <div class="our-services__name our-name">Renovasi Rumah</div>
+                            <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                            <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                            <a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-services__item our-item">
+                                    <div class="our-services__body">
+                                        <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
+                                        </div>
+                                        <div class="our-services__content">
+                            <div class="our-services__name our-name">Rebuilding</div>
+                            <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                            <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                            <a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                    </div> <!--/product-->
-                </div> <!--popup-main-->
-            </div> <!--/container-->
-        </section>
-
-        <!-- ========================  Stretcher widget ======================== -->
-
-        <section class="stretcher-wrapper">
-
-            <!-- === stretcher header === -->
-
-            <header class="hidden">
-                <!--remove class 'hidden'' to show section header -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-offset-2 col-md-8 text-center">
-                            <h1 class="h2 title">Service Kami</h1>
-                            <div class="text">
-                                <p>
-                                    Whether you are changing your home, or moving into a new one, you will find a huge selection of quality living room furniture,
-                                    bedroom furniture, dining room furniture and the best value at Furniture factory
-                                </p>
+                            <div class="our-services__bot">
+                                <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">Free Consultation</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
+                <!-- our-services -->
 
-            <!-- === stretcher === -->
-
-            <ul class="stretcher">
-
-                <!-- === stretcher item === -->
-
-                <li class="stretcher-item" style="background-image:url(assets/images/gallery-1.jpg);">
-                    <!--logo-item-->
-                    <div class="stretcher-logo">
-                        <div class="text">
-                            <span class="f-icon f-icon-bedroom"></span>
-                            <span class="text-intro">Bedroom</span>
+                <div class="presentation">
+                    <div class="presentation__section full-contain light-bg" style="background-image: url('assets/images/background/project-6.jpg');">
+                        <div class="v-lines">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="presentation__inner contain" >
+                            <h2 class="presentation__title title-general title-general--colors">BERSAMA IZZI <strong>MEMBANGUN NEGERI</strong></h2>
+                            <div class="presentation__body">
+                                <div style="background-image: url('assets/images/background/project-3.jpg');" class="presentation__video-preview">
+                                    <a class="presentation__btn-play btn-general" data-remodal-target="video" href="https://www.youtube.com/embed/YQHsXMglC9A"></a>
+                                </div>
+                                <div class="presentation__text text-general">For us, making quality accessible means developing a unique kind of quality, achievable thanks to reliable, robust and durable design materials, so that the price of the product reflects its true value
+                                </div>
+                            </div>
+                            <div class="popup-video">
+                                <div class="popup-video__section">
+                                    <div class="popup-video__video remodal" data-remodal-id="video">
+                                        <button data-remodal-action="close" class="remodal-close"></button>
+                                        <iframe width="100" height="700" src="https://www.youtube.com/embed/" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- b:popup-video -->
                         </div>
                     </div>
-                    <!--main text-->
-                    <figure>
-                        <h4>Modern furnishing projects</h4>
-                        <figcaption>New furnishing ideas</figcaption>
-                    </figure>
-                    <!--anchor-->
-                    <a href="#">Anchor link</a>
-                </li>
+                </div>
+                <!-- presentation -->
 
-                <!-- === stretcher item === -->
-
-                <li class="stretcher-item" style="background-image:url(assets/images/gallery-2.jpg);">
-                    <!--logo-item-->
-                    <div class="stretcher-logo">
-                        <div class="text">
-                            <span class="f-icon f-icon-sofa"></span>
-                            <span class="text-intro">Living room</span>
+                <div class="our-advantages">
+                    <div class="our-advantages__section">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="our-advantages__inner contain">
+                            <h2 class="our-advantages__title title-general">COMPANY <strong>IN NUMBERS</strong></h2>
+                            <div class="our-advantages__items">
+                                <div class="our-advantages__item">
+                                    <div class="our-advantages__body">
+                                        <div class="our-advantages__content">
+                                            <div class="our-advantages__number">400+</div>
+                                            <div class="our-advantages__name">Happy Clients</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-advantages__item">
+                                    <div class="our-advantages__body">
+                                        <div class="our-advantages__content">
+                                            <div class="our-advantages__number">2k+</div>
+                                            <div class="our-advantages__name">Succesfull works</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-advantages__item">
+                                    <div class="our-advantages__body">
+                                        <div class="our-advantages__content">
+                                            <div class="our-advantages__number">150+</div>
+                                            <div class="our-advantages__name">Masters</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-advantages__item">
+                                    <div class="our-advantages__body">
+                                        <div class="our-advantages__content">
+                                            <div class="our-advantages__number">70+</div>
+                                            <div class="our-advantages__name">City Offices</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="our-advantages__bot">
+                                <a class="our-advantages__btn-call btn-general" data-remodal-target="call_back_form" href="#">Get Call Back</a>
+                            </div>
                         </div>
                     </div>
-                    <!--main text-->
-                    <figure>
-                        <h4>Furnishing and complements</h4>
-                        <figcaption>Discover the design table collection</figcaption>
-                    </figure>
-                    <!--anchor-->
-                    <a href="#">Anchor link</a>
-                </li>
+                </div>
+                <!-- our-advantages -->
 
-                <!-- === stretcher item === -->
-
-                <li class="stretcher-item" style="background-image:url(assets/images/gallery-3.jpg);">
-                    <!--logo-item-->
-                    <div class="stretcher-logo">
-                        <div class="text">
-                            <span class="f-icon f-icon-office"></span>
-                            <span class="text-intro">Office</span>
+                <div id="our_team" class="our-team">
+                    <div class="our-team__section full-contain light-bg" style="background-image: url('assets/images/background/project-4.jpg');">
+                        <div class="v-lines">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="our-team__inner contain">
+                            <h2 class="our-team__title title-general title-general--colors">OUR <strong>TEAM</strong>
+                            </h2>
+                            <div class="our-team__items js-our-team-slider owl-carousel">
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Albert Robertson</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Alexandr Ravilov</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Calvin Harris</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Calvin Harris</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Calvin Harris</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Calvin Harris</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-team__item">
+                                    <div class="our-team__body">
+                                        <div class="our-team__info">
+                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
+                                            <div class="social-links">
+                                                <div class="social-links__items">
+                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                            class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                            class="fab fa-instagram"></i></a>
+                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
+                                                            class="far fa-envelope"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- social-links -->
+                                        </div>
+                                        <div class="our-team__content">
+                                            <div class="our-team__name">Calvin Harris</div>
+                                            <div class="our-team__place text-general">Company CEO</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!--main text-->
-                    <figure>
-                        <h4>Which is Best for Your Home</h4>
-                        <figcaption>Wardrobes vs Walk-In Closets</figcaption>
-                    </figure>
-                    <!--anchor-->
-                    <a href="#">Anchor link</a>
-                </li>
+                </div>
+                <!-- our-team -->
 
-                <!-- === stretcher item === -->
-
-                <li class="stretcher-item" style="background-image:url(assets/images/gallery-4.jpg);">
-                    <!--logo-item-->
-                    <div class="stretcher-logo">
-                        <div class="text">
-                            <span class="f-icon f-icon-bathroom"></span>
-                            <span class="text-intro">Bathroom</span>
+                <div class="work-process">
+                    <div class="work-process__section full-contain">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="work-process__inner">
+                            <h2 class="work-process__title contain title-general">WORK <strong>PROCESS</strong></h2>
+                            <div class="work-process__items js-work-process-slider owl-carousel">
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">MEASURE</div>
+                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">DESIGN</div>
+                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">PLACE</div>
+                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">DESIGN</div>
+                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">MEASURE</div>
+                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!--main text-->
-                    <figure>
-                        <h4>Keeping Things Minimal</h4>
-                        <figcaption>Creating Your Very Own Bathroom</figcaption>
-                    </figure>
-                    <!--anchor-->
-                    <a href="#">Anchor link</a>
-                </li>
+                </div>
+                <!-- work-process -->
 
-                <!-- === stretcher item more=== -->
-
-                <li class="stretcher-item more">
-                    <div class="more-icon">
-                        <span data-title-show="Show more" data-title-hide="+"></span>
+                <div id="projects" class="our-projects">
+                    <div class="our-projects__section full-contain light-bg" style="background-image: url('assets/images/background/square-3.jpg');">
+                        <div class="v-lines">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="our-projects__inner contain">
+                            <h2 class="our-projects__title title-general title-general--colors">OUR
+                                <strong>PROJECTS</strong></h2>
+                            <div class="our-projects__items js-our-projects-slider owl-carousel">
+                                <div class="our-projects__item spotlight-group" data-title="">
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
+                                        <a href="assets/images/projects/g6.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g6.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g7.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g7.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g11.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/g11.jpg" alt=""></a>
+                                    </div>
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-single">
+                                        <a href="assets/images/projects/g15.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g15.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="our-projects__item spotlight-group" data-title="">
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
+                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
+                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
+                                        <a href="assets/images/projects/20.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/20.jpg" alt=""></a>
+                                    </div>
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-single">
+                                        <a href="assets/images/projects/21.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/21.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="our-projects__item spotlight-group" data-title="">
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
+                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
+                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
+                                        <a href="assets/images/projects/20.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/20.jpg" alt=""></a>
+                                    </div>
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-single">
+                                        <a href="assets/images/projects/21.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/21.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#"></a>
-                </li>
+                </div>
+                <!-- our-projects -->
 
-            </ul>
-        </section>
+                <div class="our-clients">
+                    <div class="our-clients__section">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="our-clients__inner contain">
+                            <h2 class="our-clients__title title-general">OUR <strong>HAPPY CLIENTS</strong></h2>
+                            <div class="our-clients__items js-our-clients-slider owl-carousel">
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">JOHN <strong>MCCONELY</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">MARIA <strong>ROBERTSON</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">ALBERT <strong>JACKMANN</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">JOHN <strong>MCCONELY</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">MARIA <strong>ROBERTSON</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">ALBERT <strong>JACKMANN</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">MARIA <strong>ROBERTSON</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- our-clients -->
 
-        <?php $this->load->view('include/footer'); ?>
+                <div class="company-news">
+                    <div class="company-news__section full-contain light-bg" style="background-image: url('assets/images/background/blog-2.jpg');">
+                        <div class="v-lines">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="company-news__inner contain">
+                            <h2 class="company-news__title title-general title-general--colors">COMPANY
+                                <strong>NEWS</strong></h2>
+                            <div class="company-news__items js-company-news-slider owl-carousel">
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-news__item our-item">
+                                    <div class="company-news__body">
+                                        <div class="company-news__img"><img src="assets/images/news/5.jpg" alt=""></div>
+                                        <div class="company-news__info">
+                                            <div class="company-news__date">Nov 28, 2019</div>
+                                            <div class="company-news__content">
+                                                <div class="company-news__name our-name">Improvements in Technology</div>
+                                <div class="company-news__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+                                <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                                <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                                <a class="company-news__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- company-news -->
+
+                <div class="contact-form">
+                    <div class="contact-form__section">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="contact-form__inner contain">
+                            <div class="contact-form__pic">
+                                <div class="contact-form__img"><img src="assets/images/10.jpg" alt=""></div>
+                            </div>
+                            <div class="contact-form__container-form">
+                                <h2 class="contact-form__title title-general">CALL <strong>BACK</strong></h2>
+                                <div class="call-back-form">
+                                    <div class="call-back-form__section">
+                                        <form class="call-back-form__form">
+                                            <div class="call-back-form__inputs">
+                                                <div class="call-back-form__input">
+                                                    <input type="text" placeholder="Your Name*" required="">
+                                                </div>
+                                                <div class="call-back-form__input">
+                                                    <input type="email" placeholder="Your Email*" required="">
+                                                </div>
+                                                <div class="call-back-form__input">
+                                                    <input type="tel" placeholder="Phone Number*" required="">
+                                                </div>
+                                                <div class="call-back-form__textarea">
+                                                    <textarea name="text-feedback" class="text-feedback" placeholder="Your Message*" onfocus="placeholder='';" onblur="placeholder='Your Message*';" required=""></textarea>
+                                                </div>
+                                                <div class="call-back-form__bottom">
+                                                    <button class="call-back-form__btn-submit btn-general" type="submit">SEND</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- call-back-form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- contact-form -->
+
+            </main>
+            <!-- e:main -->
+
+        </div>
+        <!-- b:m-content -->
+
+<?php $this->view('include/footer');?>
+        <!-- b:app-footer -->
+
+    </div>
+    <!-- b:wrapper -->
+<!-- LOGIN MODAL -->
+    <button class="btn-up btn-general js-btn-up" type="button"><i class="fas fa-chevron-up"></i></button>
+
+    <div class="popup-form remodal" data-remodal-id="call_back_form">
+        <div class="popup-form__section">
+            <h2 class="popup-form__title title-general">LOGIN <strong>IZZI SERVICE</strong></h2>
+         
+            <div class="call-back-form">
+                <div class="call-back-form__section">
+                    <form action="<?php echo base_url('login/login_akses');?>" method="POST" class="call-back-form__form" >
+                           <?php echo $this->session->flashdata("msg");?>
+                        <div class="call-back-form__inputs">
+                            <div class="call-back-form__input">
+                                <input type="text" name="username" id="exampleInputEmail1" placeholder="Username/Email" required="">
+                            </div>
+                            <div class="call-back-form__input">
+                                <input type="password" name="password" id="exampleInputPassword1" placeholder="Password"required="">
+                            </div>
+                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form_regist"><i
+                                            class="fas fa-chevron-right"></i>REGISTRASI</a>
+                            <div class="call-back-form__bottom">
+                                <button type="submit" class="call-back-form__btn-submit btn-general" >LOGIN</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- call-back-form -->
+        </div>
+       <!--  <div class="popup-success">
+            <div class="popup-success__section">
+                <div class="popup-success__icon"><img src="assets/images/success-icon.png" alt=""></div>
+                <div class="popup-success__desc">
+                    <span>
+                        Berhasil Login.
+                    </span>
+                    <strong>Silahkan Menikmati Layanan Kami!</strong>
+                </div>
+            </div>
+        </div> -->
+        <!-- b:popup-success -->
+    </div>
+    <!-- popup-form -->
+    <!-- modal register -->
+        <div class="popup-form remodal" data-remodal-id="call_back_form_regist">
+        <div class="popup-form__section">
+            <h2 class="popup-form__title title-general">DAFTAR <strong>IZZI SERVICE</strong></h2>
+            <div class="call-back-form">
+                <div class="call-back-form__section">
+                    <form action="<?php echo base_url();?>login/register_data" method="POST" class="call-back-form__form">
+                        <div class="call-back-form__inputs" >
+                            <div class="call-back-form__input">
+                            <!--     <label for="username">Username</label> -->
+                                <input type="text" placeholder="Username" required="" name="username" id="username">
+                            </div>
+                            <div class="call-back-form__input">
+                                <input type="password" placeholder="Password" required="">
+                            </div>
+                            <div class="call-back-form__input">
+                                <input type="text" placeholder="Nama Lengkap" required="">
+                            </div>
+                             <div class="call-back-form__input">
+                                <input type="email" placeholder="Email" required="">
+                            </div>
+                            <div class="call-back-form__textarea">
+                                                    <textarea name="text-feedback" class="text-feedback" placeholder="Alamat Lengkap" onfocus="placeholder='';" onblur="placeholder='Alamat Lengkap;" required=""></textarea>
+                            </div>
+                             <div class="call-back-form__input">
+                               <input type="text" name="jenis_kelamin"  id="jk" placeholder="Jenis Kelamin" >                     
+                                      </div>
+                                      
+                            <div class="call-back-form__input">
+                                <input type="number" placeholder="No Telphone" required="">
+                            </div>
+                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form"><i
+                                            class="fas fa-chevron-right"></i>LOGIN</a>
+                            <div class="call-back-form__bottom">
+                                <button type="submit" class="call-back-form__btn-submit btn-general" >DAFTAR</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- call-back-form -->
+        </div>
+        <div class="popup-success">
+            <div class="popup-success__section">
+                <div class="popup-success__icon"><img src="assets/images/success-icon.png" alt=""></div>
+                <div class="popup-success__desc">
+                    <span>
+                        Pendaftaran Berhasil, Silahkan 
+                    </span>
+                    <strong>Login Kembali!</strong>
+                </div>
+            </div>
+        </div>
+        <!-- b:popup-success -->
+    </div>
+
+      
+
+    <div class="popup-about-us remodal" data-remodal-id="about_us">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="popup-about-us__section">
+            <div class="popup-about-us__items">
+                <div class="popup-about-us__item">
+                    <div class="popup-about-us__content">
+                        <h2 class="popup-about-us__title title-general">WHO <strong>WE ARE</strong></h2>
+                        <div class="popup-about-us__text text-general">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        </div>
+                    </div>
+                    <div class="popup-about-us__pic">
+                        <div class="popup-about-us__img"><img src="assets/images/10.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="popup-about-us__item">
+                    <div class="popup-about-us__content">
+                        <div class="popup-about-us__text text-general">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        </div>
+                    </div>
+                    <div class="popup-about-us__pic">
+                        <div class="popup-about-us__img"><img src="assets/images/10.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-about-us__bottom">
+                <a class="popup-about-us__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">FREE CONSULTATION</a>
+            </div>
+        </div>
+    </div>
+    <!-- popup-about-us -->
+
+    <div class="popup-our-blog remodal" data-remodal-id="our_blog">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="popup-our-blog__section">
+        <div class="popup-our-blog__items">
+            <div class="popup-our-blog__item">
+                <div class="popup-our-blog__pic">
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"></div></div>
+                </div>
+                <div class="popup-our-blog__content">
+                    <h2 class="popup-our-blog__title title-general js-title"></h2>
+                    <div class="popup-our-blog__text text-general js-more-text"></div>
+                </div>
+            </div>
+            <div class="popup-our-blog__item">
+                <div class="popup-our-blog__text text-general js-more-additional-text"></div>
+            </div>
+        </div>
+        <div class="popup-our-blog__bottom">
+            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">FREE CONSULTATION</a>
+        </div>
+    </div>
+</div>
+<!-- popup-our-blog -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/script.js"></script>
 
 
-       
-
-    <!--JS files-->
-    <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
-    <script src="<?php echo base_url(); ?>js/jquery.bootstrap.js"></script>
-    <script src="<?php echo base_url(); ?>js/jquery.magnific-popup.js"></script>
-    <script src="<?php echo base_url(); ?>js/jquery.owl.carousel.js"></script>
-    <script src="<?php echo base_url(); ?>js/jquery.ion.rangeSlider.js"></script>
-    <script src="<?php echo base_url(); ?>js/jquery.isotope.pkgd.js"></script>
-    <script src="<?php echo base_url(); ?>js/main.js"></script>
 </body>
+<!-- b:w-page -->
 
 </html>

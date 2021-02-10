@@ -1,77 +1,90 @@
- <!-- ================== Footer  ================== -->
+<footer id="contact" class="app-footer">
+            <div class="app-footer__section full-contain light-bg" style="background-image: url('assets/images/background/22.jpg');">
+                <div class="v-lines">
+                    <div class="v-lines__inner"></div>
+                </div>
+                <div class="app-footer__inner contain" >
+                    <div class="app-footer__head">
+                        <div class="logo">
+                            <a href="/" class="logo__img"><img src="assets/images/logo.png" alt=""></a>
+                        </div>
+                        <!-- logo -->
+                    </div>
+                    <div class="app-footer__items">
+                        <div class="app-footer__item">
+                            <div class="app-footer__body">
+                                <h3 class="app-footer__title">Tentang Kami</h3>
+                                <div class="app-footer__content">
+                                    <div class="app-footer__text text-general">Kami PT. IZZI MITRA SOLUSINDO adalah perusahaan yang bergerak dibidang teknologi informasi dan komunikasi.
 
- <footer>
-            <div class="container">
-
-                <!--footer showroom-->
-                <div class="footer-showroom">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <h2>Visit our showroom</h2>
-                            <p>Jl. H. Dimun Raya No.5A, RT.04/RW.24, Sukamaju, Kec. Cilodong, Kota Depok, Jawa Barat 16415</p>
-            
+PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sumberdaya manusia yang profesional, berpengalaman, bersertifikat internasional dan menerapkan teknologi terkini. Dengan berbekal semangat, inovasi, kreatifitas serta networking, PT. IZZI MITRASOLUSINDO sanggup bersaing di bisnis Teknologi Informasi. </div>
+                                    <div class="social-links social-links--footer">
+                                        <div class="social-links__items">
+                                            <a href="https://www.facebook.com/izzisoft" target="_blank" class="social-links__item social-links__item--facebook"><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a href="https://twitter.com/izzisoft" target="_blank" class="social-links__item social-links__item--twitter"><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a href="https://instagram.com/izzisoft" target="_blank" class="social-links__item social-links__item--instagram"><i
+                                                    class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- social-links -->
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-4 text-center">
-                            <a target="_blank" href="https://g.page/izzi-soft-official?share" class="btn btn-clean"><span class="icon icon-map-marker"></span> Get directions</a>
-                            <div class="call-us h4"><span class="icon icon-phone-handset"></span> 0819-2001-233</div>
+                        <div class="app-footer__item">
+                            <div class="app-footer__body">
+                                <h3 class="app-footer__title">Kontak</h3>
+                                <div class="app-footer__content">
+                                    <div class="app-footer__contact-phone">
+                                        <a href="tel:02127613349">Telephone : 021 2761 3349</a><br>
+                                        <a target="_blank" href="https://wa.me/628192001233">WA : +62 8192-001-233</a>
+                                       <!--  <a href="tel:+18004567890" class="app-footer__phone">+1 800 456-78-90</a>
+                                        <a href="tel:+18004567897" class="app-footer__phone">+1 800 456-78-97</a> -->
+                                    </div>
+                                    <div class="app-footer__contact-address">
+                                        <span class="app-footer__address-pos">Jl. H. Dimun Raya No.5A, RT.04/RW.24, Sukamaju, Kec. Cilodong, <br> Kota Depok, Jawa Barat 16415</span>
+                                    </div>
+                                    <a target="_blank" href="https://www.google.com/maps/place/izzi-soft+official/@-6.4121091,106.8488769,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69ebb0d4a785b7:0x7d0053f952c236b9!8m2!3d-6.4121091!4d106.8510656" class="app-footer__get-location-link"><i
+                                            class="fas fa-chevron-right"></i> Alamat Kami di Maps</a>
+                                    <div class="app-footer__contact-mail">
+                                        <a href="mailto:info@izzi-soft.com" class="app-footer__mail">info@izzi-soft.com</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!--footer links-->
-                <div class="footer-links">
-                    <div class="row">
-                        <div class="col-sm-4 col-md-2">
-                            <h5>Browse by</h5>
-                            <ul>
-                                <li><a href="#">Brand</a></li>
-                                <li><a href="#">Product</a></li>
-                                <li><a href="#">Category</a></li>
-                            </ul>
+                        <div class="app-footer__item">
+                            <div class="app-footer__body">
+                                <h3 class="app-footer__title">Instagram</h3>
+                                <div class="app-footer__content">
+                                    <div class="instagram-pics">
+                                        <ul class="instagram-pics__list instafeed-list list-inline mb-3" id="instafeed" data-userID="26809607134" data-accessToken="26809607134.1677ed0.b4aa2e6a044f46d6b50b66c6d8290da2">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-4 col-md-2">
-                            <h5>Recources</h5>
-                            <ul>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">Sales</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-md-2">
-                            <h5>Our company</h5>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <h5>Sign up for our newsletter</h5>
-                            <p><i>Add your email address to sign up for our monthly emails and to receive promotional offers.</i></p>
-                            <div class="form-group form-newsletter">
-                                <input class="form-control" type="text" name="email" value="" placeholder="Email address" />
-                                <input type="submit" class="btn btn-clean btn-sm" value="Subscribe" />
+                        <div class="app-footer__item">
+                            <div class="app-footer__body">
+                                <h3 class="app-footer__title">Subscribe</h3>
+                                <div class="app-footer__content">
+                                    <div class="app-footer__text text-general">Untuk Mengikuti Perkembangan Teknologi Bersama Kami, Sertakan Email Anda Dibawah ini</div>
+                                    <div class="app-footer__enter-email">
+                                        <form class="app-footer__enter-email-form">
+                                            <div class="app-footer__enter-email-input">
+                                                <input type="text" placeholder="Alamat Email" required="">
+                                                <button type="submit" class="app-footer__btn-send"><i class="fab fa-telegram-plane"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="app-footer__personal-date">* Data Pribadi Akan Dienkripsi</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--footer social-->
-
-                <div class="footer-social">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="#" target=""><i class="fa fa-download"></i> Download brosur</a> &nbsp; | <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="https://izzi-soft.com/privacy_policy.html">Privacy policy</a>
-                        </div>               
-                        <div class="col-sm-6 links">
-                            <ul>
-                                <li><a href="https://www.facebook.com/izzisoft"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/izzisoft"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCzhxxz7yf1sOsw5X05Lqvhw"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="https://www.instagram.com/izzisoft/"><i class="fa 
-                                fa-instagram"></i></a></li>
-                                <br><br>
-                                <p>© Copyright 2021 IZZI SERVICE, All Rights Reserved</p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <div class="legal-info full-contain">
+                <span class="legal-info__copy">Copyright ©<?php echo date('Y'); ?> IZZI SOFT</span> | <a href="http://www.izzi-soft.com/privacy_policy.html" class="legal-info__privacy-policy">Privacy Policy</a>
             </div>
         </footer>
-    </div> <!--/wrapper-->
