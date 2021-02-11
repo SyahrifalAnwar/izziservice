@@ -3,7 +3,7 @@
                         <div class="main-slider__section">
                             <div class="main-slider__inner">
                                 <div class="main-slider__items js-main-slider owl-carousel">
-                                    <div style="background-image: url('assets/images/gallery-1.jpg');" class="main-slider__item">
+                                    <div style="background-image: url('assets/images/slider/gallery-1.jpg');" class="main-slider__item">
                                         <div class="main-slider__body contain">
                                             <h1 class="main-slider__title">
                                                 AC LAMA SEPERTI BARU DENGAN
@@ -17,7 +17,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="background-image: url('assets/images/cctv.jpg');" class="main-slider__item">
+                                    <div style="background-image: url('assets/images/slider/cctv.jpg');" class="main-slider__item">
                                         <div class="main-slider__body contain">
                                             <h1 class="main-slider__title">
                                                 LEBIH AMAN, LEBIH NYAMAN DENGAN
@@ -31,7 +31,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="background-image: url('assets/images/komputer.jpg');" class="main-slider__item">
+                                    <div style="background-image: url('assets/images/slider/komputer.jpg');" class="main-slider__item">
                                         <div class="main-slider__body contain">
                                             <h1 class="main-slider__title">
                                                 SERVICE KOMPUTER ANDA DENGAN AMAN DI
@@ -45,7 +45,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="background-image: url('assets/images/gallery-2.jpg');" class="main-slider__item">
+                                    <div style="background-image: url('assets/images/slider/gallery-2.jpg');" class="main-slider__item">
                                         <div class="main-slider__body contain">
                                             <h1 class="main-slider__title">
                                                 FURNITUR LENGKAP HANYA DI
@@ -59,7 +59,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                       <div style="background-image: url('assets/images/pembangunan.jpg');" class="main-slider__item">
+                                       <div style="background-image: url('assets/images/slider/pembangunan.jpg');" class="main-slider__item">
                                         <div class="main-slider__body contain">
                                             <h1 class="main-slider__title">
                                                 PEMBANGUNAN/RENOVASI RUMAH TERPERCAYA BERSAMA
@@ -88,7 +88,7 @@
 
             <main class="app__main">
 
-                <div class="about-us">
+                <div class="about-us" id="about-us">
                     <div class="about-us__section">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
@@ -104,7 +104,7 @@ PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sum
                                 <a class="about-us__btn-more btn-general" data-remodal-target="about_us" href="#">Selengkapnya</a>
                             </div>
                             <div class="about-us__pic">
-                                <div class="about-us__img"><img src="assets/images/10.jpg" alt=""></div>
+                                <div class="about-us__img"><img src="assets/images/gambar1.png" alt=""></div>
                             </div>
                         </div>
                     </div>

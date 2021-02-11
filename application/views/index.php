@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php $this->view('include/head') ;?>
+<?php $this->load->view('include/head') ;?>
 <body class="app home">
 
 <!--     <div class="mobile-panel">
@@ -52,25 +52,25 @@
                     <div class="v-lines__inner"></div>
                 </div>
                 <!-- NAVBAR CONTAINT -->
-             <?php $this->view('include/navbar'); ?>
+             <?php $this->load->view('include/navbar'); ?>
              <!-- SLIDER CONTAINT -->
-              <?php $this->view('include/slider'); ?>
+              <?php $this->load->view('include/slider'); ?>
                 <!-- about-us -->
 
-                <div class="our-services">
+                <div class="our-services" id="layanan">
                     <div class="our-services__section full-contain">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="our-services__inner contain">
-                            <h2 class="our-services__title title-general">LAYANAN <strong>KAMI</strong></h2>
+                            <h2 class="our-services__title title-general">PRODUK <strong>KAMI</strong></h2>
                             <div class="our-services__items">
                                 <div class="our-services__item our-item">
                                     <div class="our-services__body">
                                         <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
                                         </div>
                                         <div class="our-services__content">
-                            <div class="our-services__name our-name">Pembangunan</div>
+                            <div class="our-services__name our-name">AC</div>
                             <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
                             <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
@@ -83,7 +83,7 @@
                                         <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
                                         </div>
                                         <div class="our-services__content">
-                            <div class="our-services__name our-name">Renovasi Rumah</div>
+                            <div class="our-services__name our-name">CCTV</div>
                             <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
                             <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
@@ -96,7 +96,20 @@
                                         <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
                                         </div>
                                         <div class="our-services__content">
-                            <div class="our-services__name our-name">Rebuilding</div>
+                            <div class="our-services__name our-name">Komputer</div>
+                            <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
+                            <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
+                            <a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Selengkapnya</a>
+                        </div>
+                                    </div>
+                                </div>
+                                          <div class="our-services__item our-item">
+                                    <div class="our-services__body">
+                                        <div class="our-services__img"><img src="assets/images/services/1.jpg" alt="">
+                                        </div>
+                                        <div class="our-services__content">
+                            <div class="our-services__name our-name">FURNITURE</div>
                             <div class="our-services__text text-general">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <div class="our-text-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et</div>
                             <div class="our-text-more-additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</div>
@@ -121,8 +134,8 @@
                         <div class="presentation__inner contain" >
                             <h2 class="presentation__title title-general title-general--colors">BERSAMA IZZI <strong>MEMBANGUN NEGERI</strong></h2>
                             <div class="presentation__body">
-                                <div style="background-image: url('assets/images/background/project-3.jpg');" class="presentation__video-preview">
-                                    <a class="presentation__btn-play btn-general" data-remodal-target="video" href="https://www.youtube.com/embed/YQHsXMglC9A"></a>
+                                <div style="background-image: url('assets/images/blog-2.jpg');" class="presentation__video-preview">
+                                    <a class="presentation__btn-play btn-general" data-remodal-target="video" href="https://www.youtube.com/embed/cs4bt5_BncA"></a>
                                 </div>
                                 <div class="presentation__text text-general">For us, making quality accessible means developing a unique kind of quality, achievable thanks to reliable, robust and durable design materials, so that the price of the product reflects its true value
                                 </div>
@@ -131,7 +144,7 @@
                                 <div class="popup-video__section">
                                     <div class="popup-video__video remodal" data-remodal-id="video">
                                         <button data-remodal-action="close" class="remodal-close"></button>
-                                        <iframe width="100" height="700" src="https://www.youtube.com/embed/" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                        <iframe width="100" height="700" src="https://www.youtube.com/embed/cs4bt5_BncA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +154,7 @@
                 </div>
                 <!-- presentation -->
 
-                <div class="our-advantages">
+                <div class="our-advantages" id="number">
                     <div class="our-advantages__section">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
@@ -718,12 +731,13 @@
         </div>
         <!-- b:m-content -->
 
-<?php $this->view('include/footer');?>
+<?php $this->load->view('include/footer');?>
         <!-- b:app-footer -->
 
     </div>
     <!-- b:wrapper -->
 <!-- LOGIN MODAL -->
+
     <button class="btn-up btn-general js-btn-up" type="button"><i class="fas fa-chevron-up"></i></button>
 
     <div class="popup-form remodal" data-remodal-id="call_back_form">
@@ -732,7 +746,7 @@
          
             <div class="call-back-form">
                 <div class="call-back-form__section">
-                    <form action="<?php echo base_url('login/login_akses');?>" method="POST" class="call-back-form__form" >
+                    <form action="<?php echo base_url();?>login/login_akses" method="POST" class="call-back-form__form" >
                            <?php echo $this->session->flashdata("msg");?>
                         <div class="call-back-form__inputs">
                             <div class="call-back-form__input">
@@ -830,23 +844,38 @@
             <div class="popup-about-us__items">
                 <div class="popup-about-us__item">
                     <div class="popup-about-us__content">
-                        <h2 class="popup-about-us__title title-general">WHO <strong>WE ARE</strong></h2>
+                        <h2 class="popup-about-us__title title-general">IZZI <strong>SOFT</strong></h2>
                         <div class="popup-about-us__text text-general">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                   PT. IZZI MITRA SOLUSINDO
+Kami PT. IZZI MITRA SOLUSINDO adalah perusahaan yang bergerak dibidang teknologi informasi dan komunikasi.
+
+PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sumberdaya manusia yang profesional, berpengalaman, bersertifikat internasional dan menerapkan teknologi terkini. Dengan berbekal semangat, inovasi, kreatifitas serta networking, PT. IZZI MITRASOLUSINDO sanggup bersaing di bisnis Teknologi Informasi.
                         </div>
                     </div>
                     <div class="popup-about-us__pic">
-                        <div class="popup-about-us__img"><img src="assets/images/10.jpg" alt=""></div>
+                        <div class="popup-about-us__img"><img src="assets/images/gambar1.png" alt=""></div>
                     </div>
                 </div>
                 <div class="popup-about-us__item">
                     <div class="popup-about-us__content">
+                                                <h2 class="popup-about-us__title title-general">VISI <strong>MISI</strong></h2>
+
                         <div class="popup-about-us__text text-general">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                          <p>VISI</p>
+Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini.
+
+ <p>MISI</p>
+<ul>
+    <li>Mengedepankan profesionalisme dan teamwork.</li>
+    <li>Menghasilkan layanan yang berkualitas.</li>
+    <li>Mengembangkan inovasi teknologi terbaik dan terkini dalam setiap produk.</li>
+
+
+</ul>
                         </div>
                     </div>
                     <div class="popup-about-us__pic">
-                        <div class="popup-about-us__img"><img src="assets/images/10.jpg" alt=""></div>
+                        <div class="popup-about-us__img"><img src="assets/images/gambar2.png" alt=""></div>
                     </div>
                 </div>
             </div>

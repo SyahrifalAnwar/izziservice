@@ -28,8 +28,9 @@
                                         </div>
                                     </div>
                                     <!-- main-nav -->
-                                    <button class="btn-general" data-remodal-target="call_back_form" type="button">LOGIN
-                                    </button>
+                                    
+                                    <a class="btn-general" href="<?php echo base_url('login') ?>" >LOGIN
+                                    </a>
                                 </div>
                             </div>
                         </div>
