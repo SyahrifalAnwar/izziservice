@@ -21,7 +21,7 @@
                                         <div class="main-nav__nav">
                                             <ul>
                                                 <li class="js-nav-to-anchor"><a href="#home">HOME</a></li>
-                                                <li class="js-nav-to-anchor"><a href="#projects">PRODUK</a></li>
+                                                <li class="js-nav-to-anchor"><a href="#layanan">PRODUK</a></li>
                                                 <li class="js-nav-to-anchor"><a href="#contact">KONTAK</a></li>
 
                                             </ul>

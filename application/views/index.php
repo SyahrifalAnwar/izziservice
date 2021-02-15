@@ -57,13 +57,94 @@
               <?php $this->load->view('include/slider'); ?>
                 <!-- about-us -->
 
-                <div class="our-services" id="layanan">
+                <!-- our product -->
+                       <div class="our-clients" id="layanan">
+                    <div class="our-clients__section">
+                        <div class="v-lines v-lines--mods-color">
+                            <div class="v-lines__inner"></div>
+                        </div>
+                        <div class="our-clients__inner contain">
+                            <h2 class="our-clients__title title-general">OUR <strong>PRODUCT</strong></h2>
+                            <div class="our-clients__items js-our-clients-slider owl-carousel">
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/ac.png" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">AC</div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/cctv.png" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">CCTV</div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
+
+                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/komputer.png" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">KOMPUTER</div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+
+                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/gallery-2.jpg" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">FURNITURE</div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit am 
+                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/bangunrumah.png" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">RENOVASI <strong>RUMAH</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, 
+                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="assets/images/clients/bangunrumah.png" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name">PEMBANGUNAN <strong>RUMAH</strong></div>
+                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, 
+                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                             <div class="our-services__bot">
+                                <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">Pesan Sekarang!</button>
+                            </div>                        </div>
+                    </div>
+                </div>
+
+               <!--  <div class="our-services" id="layanan">
                     <div class="our-services__section full-contain">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="our-services__inner contain">
                             <h2 class="our-services__title title-general">PRODUK <strong>KAMI</strong></h2>
+                 <div class="our-services__items js-our-services-slider owl-carousel">
+
+
                             <div class="our-services__items">
                                 <div class="our-services__item our-item">
                                     <div class="our-services__body">
@@ -118,12 +199,15 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
                             <div class="our-services__bot">
-                                <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">Free Consultation</button>
+                                <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">PESAN SEKARANG!</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                
+            </div> -->
                 <!-- our-services -->
 
                 <div class="presentation">
@@ -160,7 +244,7 @@
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="our-advantages__inner contain">
-                            <h2 class="our-advantages__title title-general">COMPANY <strong>IN NUMBERS</strong></h2>
+                            <h2 class="our-advantages__title title-general">PORTFOLIO <strong>PERUSAHAAN</strong></h2>
                             <div class="our-advantages__items">
                                 <div class="our-advantages__item">
                                     <div class="our-advantages__body">
@@ -196,7 +280,7 @@
                                 </div>
                             </div>
                             <div class="our-advantages__bot">
-                                <a class="our-advantages__btn-call btn-general" data-remodal-target="call_back_form" href="#">Get Call Back</a>
+                                <a class="our-advantages__btn-call btn-general" data-remodal-target="call_back_form" href="#">Punya Pertanyaan?</a>
                             </div>
                         </div>
                     </div>
@@ -458,6 +542,7 @@
                         <div class="our-projects__inner contain">
                             <h2 class="our-projects__title title-general title-general--colors">OUR
                                 <strong>PROJECTS</strong></h2>
+                                <h3 >Beberapa Foto Dokumentasi Proyek Yang Sudah Selesai/Sedang Dikerjakan Oleh Tim <strong>IZZI SERVICE</strong></h3>
                             <div class="our-projects__items js-our-projects-slider owl-carousel">
                                 <div class="our-projects__item spotlight-group" data-title="">
                                     <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
@@ -501,14 +586,14 @@
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="our-clients__inner contain">
-                            <h2 class="our-clients__title title-general">OUR <strong>HAPPY CLIENTS</strong></h2>
+                            <h2 class="our-clients__title title-general">TESTIMONI DARI <strong>PELANGGAN KAMI</strong></h2>
                             <div class="our-clients__items js-our-clients-slider owl-carousel">
                                 <div class="our-clients__item">
                                     <div class="our-clients__body">
                                         <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
                                         <div class="our-clients__content">
                                             <div class="our-clients__name">JOHN <strong>MCCONELY</strong></div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            <div class="our-clients__text text-general">Pelayanan dan service yang mantab budjhank
                                             </div>
                                         </div>
                                     </div>
@@ -518,7 +603,7 @@
                                         <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
                                         <div class="our-clients__content">
                                             <div class="our-clients__name">MARIA <strong>ROBERTSON</strong></div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            <div class="our-clients__text text-general">Dipilihkan teknisi sesuai dengan Gender bikin nyaman Banget :(
                                             </div>
                                         </div>
                                     </div>
@@ -528,7 +613,7 @@
                                         <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
                                         <div class="our-clients__content">
                                             <div class="our-clients__name">ALBERT <strong>JACKMANN</strong></div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            <div class="our-clients__text text-general">Tidak lagi kesulitan dalam memilih tukang untuk pembangunan rumah saya
                                             </div>
                                         </div>
                                     </div>
@@ -585,7 +670,7 @@
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="company-news__inner contain">
-                            <h2 class="company-news__title title-general title-general--colors">COMPANY
+                            <h2 class="company-news__title title-general title-general--colors">BLOG &
                                 <strong>NEWS</strong></h2>
                             <div class="company-news__items js-company-news-slider owl-carousel">
                                 <div class="company-news__item our-item">
@@ -694,7 +779,7 @@
                                 <div class="contact-form__img"><img src="assets/images/10.jpg" alt=""></div>
                             </div>
                             <div class="contact-form__container-form">
-                                <h2 class="contact-form__title title-general">CALL <strong>BACK</strong></h2>
+                                <h2 class="contact-form__title title-general">PUNYA <strong>PERTANYAAN?</strong></h2>
                                 <div class="call-back-form">
                                     <div class="call-back-form__section">
                                         <form class="call-back-form__form">
@@ -712,7 +797,7 @@
                                                     <textarea name="text-feedback" class="text-feedback" placeholder="Your Message*" onfocus="placeholder='';" onblur="placeholder='Your Message*';" required=""></textarea>
                                                 </div>
                                                 <div class="call-back-form__bottom">
-                                                    <button class="call-back-form__btn-submit btn-general" type="submit">SEND</button>
+                                                    <button class="call-back-form__btn-submit btn-general" type="submit">TANYA!</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -862,7 +947,7 @@ PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sum
 
                         <div class="popup-about-us__text text-general">
                           <p>VISI</p>
-Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini.
+Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini. <br>
 
  <p>MISI</p>
 <ul>
@@ -880,7 +965,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
                 </div>
             </div>
             <div class="popup-about-us__bottom">
-                <a class="popup-about-us__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">FREE CONSULTATION</a>
+                <a class="popup-about-us__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
             </div>
         </div>
     </div>
@@ -904,7 +989,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">FREE CONSULTATION</a>
+            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>

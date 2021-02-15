@@ -22,48 +22,43 @@
 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
-				<center>
+			<!-- 	<center>
 					<br><br><i>IZZI SERVICE</i>
-					<!-- <img src="https://izzi-soft.com/assets/images/logonya.png" style="width:128px;height:68px;"> --></center>
-				<h1></h1>
+					<img src="https://izzi-soft.com/assets/images/logonya.png" style="width:128px;height:68px;"></center>
+ -->			
 				<div class="panel-body">
+					 <center>	<h2>IZZI SERVICE</h2></center>
+
 					<form action="<?php echo base_url();?>login/register_data" method="post">
 						
 							<div class="form-group">
-								<label for="username"><p color=#999>Username</p></label>
 								<input class="form-control" placeholder="Masukan Username" name="username" type="text" required id="username">
 							</div>
 							<div class="form-group">
-								<label for="password"><p color=#999>Password</p></label>
 								<input class="form-control" placeholder="Masukan Password" name="password" type="password" required id="password">
 							</div>
 							<div class="form-group">
-								<label for="nama_lengkap"><p color=#999>Nama Lengkap</p></label>
 								<input class="form-control" placeholder="Nama Lengkap" name="nama_lengkap" type="text" required id="nama_lengkap">
 							</div>
 							<div class="form-group">
-								<label for="email"><p color=#999>Email</p></label>
 								<input class="form-control" placeholder="Masukan Email" name="email" type="email" required id="email">
 							</div>
 							<div class="form-group">
-								<label for="alamat"><p color=#999>Alamat</p></label>
 								<input class="form-control" placeholder="Masukan alamat" name="alamat" type="alamat" required id="alamat">
 							</div>
 							<div class="form-group">
-						<label for="jk"><p color=#999>Jenis Kelamin</p></label>			
 					     <select required="" name="jenis_kelamin" class="form-control" id="jk">
-					     	<option value=""></option>
+					     	<option value="">Jenis Kelamin</option>
 					     	<option value="PRIA">PRIA</option>
 					     	<option value="WANITA">WANITA</option>
 
 					     </select>
 					</div>
 							<div class="form-group">
-								<label for="no_telp"><p color=#999>No.Telphone</p></label>
 								<input class="form-control" placeholder="Nomor Telepon" name="no_telp" type="number" required id="no_telp"></div>
-						<button style="width: 100%" type="submit" class="btn btn-primary">Registrasi</button><br>
+						<button style="width: 100%" type="submit" class="btn btn-warning">Registrasi</button><br>
 							<br>
-							<a href="<?php echo base_url('login') ?>" text-align="center">Sudah Punya Akun ? Login Sekarang</a><br>
+							<a href="<?php echo base_url('login') ?>" text-align="center" class="text-warning">Sudah Punya Akun ? Login Yuk!</a><br>
 					</form>
 				</div>
 			</div>
