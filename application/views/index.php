@@ -3,7 +3,7 @@
 
 <?php $this->load->view('include/head') ;?>
 <body class="app home">
-
+<?php $this->load->view('include/navbar_mobile') ;?>
 <!--     <div class="mobile-panel">
         <div class="mobile-panel__section">
             <div class="logo">

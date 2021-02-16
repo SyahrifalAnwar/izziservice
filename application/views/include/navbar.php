@@ -11,7 +11,7 @@
                                     </div>
                                     <!-- logo -->
                                     <div class="contacts">
-                                        <a href="#home" class="contacts__phone">IZZI SERVICE</a>
+                                        <a href="#home" class="contacts__phone"></a>
                                     </div>
                                     <!-- contacts -->
                                 </div>
