@@ -5,7 +5,7 @@
 <script src="<?php echo base_url();?>assets/js/jquery-1.11.1.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 
-<link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/bootstrap-table.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/styles.css" rel="stylesheet">
