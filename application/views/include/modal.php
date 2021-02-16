@@ -170,7 +170,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add"">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
