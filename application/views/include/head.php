@@ -42,20 +42,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat%7CPoppins:100,200,300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/plugins.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/plugins.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/plugins.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/plugins.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css">
     <!--CSS styles-->
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/bootstrap.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/animate.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/font-awesome.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/furniture-icons.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/linear-icons.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/magnific-popup.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/owl.carousel.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/ion-range-slider.css" />
-    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>css/theme.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/bootstrap.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/animate.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/font-awesome.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/furniture-icons.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/magnific-popup.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/ion-range-slider.css" />
+    <link rel="stylesheet" media="all" href="<?php echo base_url(); ?>assets/css/theme.css" />
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&amp;subset=latin-ext" rel="stylesheet">

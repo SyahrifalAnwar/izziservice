@@ -780,9 +780,9 @@
    
 <!-- popup-our-blog -->
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/plugins.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery-3.4.1.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/plugins.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 
 
 </body>
