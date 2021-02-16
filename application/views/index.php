@@ -66,72 +66,24 @@
                         <div class="our-clients__inner contain">
                             <h2 class="our-clients__title title-general">OUR <strong>PRODUCT</strong></h2>
                             <div class="our-clients__items js-our-clients-slider owl-carousel">
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/ac.png" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">AC</div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/cctv.png" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">CCTV</div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
+                                <?php foreach ($get_kategori as $key => $get_kategori) {?>
 
-                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
+                                <div class="our-clients__item">
+                                    <div class="our-clients__body">
+                                        <div class="our-clients__img"><img src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ;?>" alt=""></div>
+                                        <div class="our-clients__content">
+                                            <div class="our-clients__name"><?php echo $get_kategori['nama_kategori']; ?></div>
+                                            <div class="our-clients__text text-general"><?php echo $get_kategori['desk'] ;?></div><a class="our-services__more js-more-info" href="#" data-remodal-target="<?php echo $get_kategori['modal'] ;?>">Read More</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/komputer.png" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">KOMPUTER</div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+                                <?php } ?>
+                           </div>
 
-                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/gallery-2.jpg" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">FURNITURE</div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit am 
-                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/bangunrumah.png" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">RENOVASI <strong>RUMAH</strong></div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, 
-                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-clients__item">
-                                    <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/bangunrumah.png" alt=""></div>
-                                        <div class="our-clients__content">
-                                            <div class="our-clients__name">PEMBANGUNAN <strong>RUMAH</strong></div>
-                                            <div class="our-clients__text text-general">Lorem ipsum dolor sit amet, 
-                                            </div><a class="our-services__more js-more-info" href="#" data-remodal-target="our_blog">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                              
-                            </div>
                              <div class="our-services__bot">
                                 <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">Pesan Sekarang!</button>
-                            </div>                        </div>
+                            </div>               
+                         </div>
                     </div>
                 </div>
 
@@ -280,7 +232,7 @@
                                 </div>
                             </div>
                             <div class="our-advantages__bot">
-                                <a class="our-advantages__btn-call btn-general" data-remodal-target="call_back_form" href="#">Punya Pertanyaan?</a>
+                                <a class="our-advantages__btn-call btn-general"  href="#pertanyaan">Punya Pertanyaan?</a>
                             </div>
                         </div>
                     </div>
@@ -769,7 +721,7 @@
                 </div>
                 <!-- company-news -->
 
-                <div class="contact-form">
+                <div class="contact-form" id="pertanyaan">
                     <div class="contact-form__section">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
@@ -821,178 +773,11 @@
 
     </div>
     <!-- b:wrapper -->
+
 <!-- LOGIN MODAL -->
+    <?php $this->load->view('include/modal');?>
 
-    <button class="btn-up btn-general js-btn-up" type="button"><i class="fas fa-chevron-up"></i></button>
-
-    <div class="popup-form remodal" data-remodal-id="call_back_form">
-        <div class="popup-form__section">
-            <h2 class="popup-form__title title-general">LOGIN <strong>IZZI SERVICE</strong></h2>
-         
-            <div class="call-back-form">
-                <div class="call-back-form__section">
-                    <form action="<?php echo base_url();?>login/login_akses" method="POST" class="call-back-form__form" >
-                           <?php echo $this->session->flashdata("msg");?>
-                        <div class="call-back-form__inputs">
-                            <div class="call-back-form__input">
-                                <input type="text" name="username" id="exampleInputEmail1" placeholder="Username/Email" required="">
-                            </div>
-                            <div class="call-back-form__input">
-                                <input type="password" name="password" id="exampleInputPassword1" placeholder="Password"required="">
-                            </div>
-                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form_regist"><i
-                                            class="fas fa-chevron-right"></i>REGISTRASI</a>
-                            <div class="call-back-form__bottom">
-                                <button type="submit" class="call-back-form__btn-submit btn-general" >LOGIN</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- call-back-form -->
-        </div>
-       <!--  <div class="popup-success">
-            <div class="popup-success__section">
-                <div class="popup-success__icon"><img src="assets/images/success-icon.png" alt=""></div>
-                <div class="popup-success__desc">
-                    <span>
-                        Berhasil Login.
-                    </span>
-                    <strong>Silahkan Menikmati Layanan Kami!</strong>
-                </div>
-            </div>
-        </div> -->
-        <!-- b:popup-success -->
-    </div>
-    <!-- popup-form -->
-    <!-- modal register -->
-        <div class="popup-form remodal" data-remodal-id="call_back_form_regist">
-        <div class="popup-form__section">
-            <h2 class="popup-form__title title-general">DAFTAR <strong>IZZI SERVICE</strong></h2>
-            <div class="call-back-form">
-                <div class="call-back-form__section">
-                    <form action="<?php echo base_url();?>login/register_data" method="POST" class="call-back-form__form">
-                        <div class="call-back-form__inputs" >
-                            <div class="call-back-form__input">
-                            <!--     <label for="username">Username</label> -->
-                                <input type="text" placeholder="Username" required="" name="username" id="username">
-                            </div>
-                            <div class="call-back-form__input">
-                                <input type="password" placeholder="Password" required="">
-                            </div>
-                            <div class="call-back-form__input">
-                                <input type="text" placeholder="Nama Lengkap" required="">
-                            </div>
-                             <div class="call-back-form__input">
-                                <input type="email" placeholder="Email" required="">
-                            </div>
-                            <div class="call-back-form__textarea">
-                                                    <textarea name="text-feedback" class="text-feedback" placeholder="Alamat Lengkap" onfocus="placeholder='';" onblur="placeholder='Alamat Lengkap;" required=""></textarea>
-                            </div>
-                             <div class="call-back-form__input">
-                               <input type="text" name="jenis_kelamin"  id="jk" placeholder="Jenis Kelamin" >                     
-                                      </div>
-                                      
-                            <div class="call-back-form__input">
-                                <input type="number" placeholder="No Telphone" required="">
-                            </div>
-                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form"><i
-                                            class="fas fa-chevron-right"></i>LOGIN</a>
-                            <div class="call-back-form__bottom">
-                                <button type="submit" class="call-back-form__btn-submit btn-general" >DAFTAR</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- call-back-form -->
-        </div>
-        <div class="popup-success">
-            <div class="popup-success__section">
-                <div class="popup-success__icon"><img src="assets/images/success-icon.png" alt=""></div>
-                <div class="popup-success__desc">
-                    <span>
-                        Pendaftaran Berhasil, Silahkan 
-                    </span>
-                    <strong>Login Kembali!</strong>
-                </div>
-            </div>
-        </div>
-        <!-- b:popup-success -->
-    </div>
-
-      
-
-    <div class="popup-about-us remodal" data-remodal-id="about_us">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <div class="popup-about-us__section">
-            <div class="popup-about-us__items">
-                <div class="popup-about-us__item">
-                    <div class="popup-about-us__content">
-                        <h2 class="popup-about-us__title title-general">IZZI <strong>SOFT</strong></h2>
-                        <div class="popup-about-us__text text-general">
-                   PT. IZZI MITRA SOLUSINDO
-Kami PT. IZZI MITRA SOLUSINDO adalah perusahaan yang bergerak dibidang teknologi informasi dan komunikasi.
-
-PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sumberdaya manusia yang profesional, berpengalaman, bersertifikat internasional dan menerapkan teknologi terkini. Dengan berbekal semangat, inovasi, kreatifitas serta networking, PT. IZZI MITRASOLUSINDO sanggup bersaing di bisnis Teknologi Informasi.
-                        </div>
-                    </div>
-                    <div class="popup-about-us__pic">
-                        <div class="popup-about-us__img"><img src="assets/images/gambar1.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="popup-about-us__item">
-                    <div class="popup-about-us__content">
-                                                <h2 class="popup-about-us__title title-general">VISI <strong>MISI</strong></h2>
-
-                        <div class="popup-about-us__text text-general">
-                          <p>VISI</p>
-Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini. <br>
-
- <p>MISI</p>
-<ul>
-    <li>Mengedepankan profesionalisme dan teamwork.</li>
-    <li>Menghasilkan layanan yang berkualitas.</li>
-    <li>Mengembangkan inovasi teknologi terbaik dan terkini dalam setiap produk.</li>
-
-
-</ul>
-                        </div>
-                    </div>
-                    <div class="popup-about-us__pic">
-                        <div class="popup-about-us__img"><img src="assets/images/gambar2.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-            <div class="popup-about-us__bottom">
-                <a class="popup-about-us__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
-            </div>
-        </div>
-    </div>
-    <!-- popup-about-us -->
-
-    <div class="popup-our-blog remodal" data-remodal-id="our_blog">
-    <button data-remodal-action="close" class="remodal-close"></button>
-    <div class="popup-our-blog__section">
-        <div class="popup-our-blog__items">
-            <div class="popup-our-blog__item">
-                <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"></div></div>
-                </div>
-                <div class="popup-our-blog__content">
-                    <h2 class="popup-our-blog__title title-general js-title"></h2>
-                    <div class="popup-our-blog__text text-general js-more-text"></div>
-                </div>
-            </div>
-            <div class="popup-our-blog__item">
-                <div class="popup-our-blog__text text-general js-more-additional-text"></div>
-            </div>
-        </div>
-        <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
-        </div>
-    </div>
-</div>
+   
 <!-- popup-our-blog -->
 
     <script src="js/jquery-3.4.1.min.js"></script>

@@ -80,8 +80,8 @@ PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sum
                                                     class="fab fa-twitter"></i></a>
                                             <a href="https://instagram.com/izzisoft" target="_blank" class="social-links__item social-links__item--instagram"><i
                                                     class="fab fa-instagram"></i></a>
-                                            <a href="https://instagram.com/izzisoft" target="_blank" class="social-links__item social-links__item--google"><i
-                                                    class="fab fa-google"></i></a>
+                                            <a href="https://www.youtube.com/channel/UCzhxxz7yf1sOsw5X05Lqvhw" target="_blank" class="social-links__item social-links__item--youtube"><i
+                                                    class="fab fa-youtube"></i></a>
                                         </div>
                                     </div>
                                 </div>
