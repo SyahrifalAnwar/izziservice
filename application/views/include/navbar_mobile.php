@@ -1,10 +1,35 @@
 <div class="mobile-panel">
         <div class="mobile-panel__section">
             <div class="logo">
-                <a href="/" class="logo__img"><img src="assets/img/logo.svg" alt=""></a>
+                <a href="/" class="logo__img"><img src="assets/images/logo.svg" alt=""></a>
             </div>
             <!-- logo -->
-            <button class="mobile-panel__btn-burger btn-general js-btn-burger" type="button" data-remodal-target="mobile_panel"><svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> --></button>
-            
+            <button class="mobile-panel__btn-burger btn-general js-btn-burger" type="button" data-remodal-target="mobile_panel"><i class="fas fa-bars"></i></button>
+            <div class="mobile-panel__inner remodal" data-remodal-id="mobile_panel">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <div class="mobile-panel__content">
+                    <div class="logo">
+                        <a href="/" class="logo__img"><img src="assets/images/logo.svg" alt=""></a>
+                    </div>
+                    <!-- logo -->
+                <div class="main-nav">
+                                        <div class="main-nav__nav">
+                                            <ul>
+                                                <li class="js-nav-to-anchor"><a href="#home">HOME</a></li>
+                                                <li class="js-nav-to-anchor"><a href="#layanan">PRODUK</a></li>
+                                                <li class="js-nav-to-anchor"><a href="#contact">KONTAK</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                    <!-- main-nav -->
+                    <!-- <div class="contacts">
+                        <a href="tel:101234547700" class="contacts__phone">+10 123 454 77 00</a>
+                    </div> -->
+                    <!-- contacts -->
+                  <a class="btn-general" href="<?php echo base_url('login') ?>" >LOGIN
+                                    </a>
+                </div>
+            </div>
         </div>
     </div>
