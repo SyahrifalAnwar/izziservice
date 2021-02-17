@@ -152,7 +152,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.png" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.jpg" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">IZZI SERVICE AC</h2>
@@ -180,7 +180,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.png" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/cctv.jpg" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">IZZI EYE</h2>
@@ -208,7 +208,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.png" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/komputer.png" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">IZZI ELEKTRONIK</h2>
@@ -238,7 +238,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.png" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/furnitur.png" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">IZZI FURNITURE</h2>
@@ -261,7 +261,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/ac.png" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/renovasi.jpg" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">RENOVASI RUMAH</h2>
@@ -284,7 +284,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
         <div class="popup-our-blog__items">
             <div class="popup-our-blog__item">
                 <div class="popup-our-blog__pic">
-                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/pembangunan.jpg" alt=""></div></div>
+                    <div class="popup-our-blog__img"><div class="style-img-bg js-img"><img src="assets/images/services/bangunrumah.jpg" alt=""></div></div>
                 </div>
                 <div class="popup-our-blog__content">
                     <h2 class="popup-our-blog__title title-general js-title">PEMBANGUNAN RUMAH</h2>

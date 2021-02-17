@@ -498,32 +498,32 @@
                             <div class="our-projects__items js-our-projects-slider owl-carousel">
                                 <div class="our-projects__item spotlight-group" data-title="">
                                     <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
-                                        <a href="assets/images/projects/g6.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g6.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g1.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g1.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g2.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g2.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g3.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/g3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-single">
+                                        <a href="assets/images/projects/g4.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g4.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="our-projects__item spotlight-group" data-title="">
+                                    <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
+                                        <a href="assets/images/projects/g5.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g5.jpg" alt=""></a>
                                         <a href="assets/images/projects/g7.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g7.jpg" alt=""></a>
-                                        <a href="assets/images/projects/g11.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/g11.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g8.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/g8.jpg" alt=""></a>
                                     </div>
                                     <div class="our-projects__gallery our-projects__gallery--gallery-single">
-                                        <a href="assets/images/projects/g15.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g15.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g6.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g6.jpg" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="our-projects__item spotlight-group" data-title="">
                                     <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
-                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
-                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
-                                        <a href="assets/images/projects/20.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/20.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g9.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g9.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g10.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g10.jpg" alt=""></a>
+                                         <a href="assets/images/projects/g13.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/g13.jpg" alt=""></a>
                                     </div>
                                     <div class="our-projects__gallery our-projects__gallery--gallery-single">
-                                        <a href="assets/images/projects/21.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/21.jpg" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="our-projects__item spotlight-group" data-title="">
-                                    <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
-                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
-                                        <a href="assets/images/projects/12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/12.jpg" alt=""></a>
-                                        <a href="assets/images/projects/20.jpg" class="our-projects__img spotlight our-projects__img--img-horizontal"><img src="assets/images/projects/20.jpg" alt=""></a>
-                                    </div>
-                                    <div class="our-projects__gallery our-projects__gallery--gallery-single">
-                                        <a href="assets/images/projects/21.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/21.jpg" alt=""></a>
+                                        <a href="assets/images/projects/g12.jpg" class="our-projects__img spotlight"><img src="assets/images/projects/g12.jpg" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -542,7 +542,7 @@
                             <div class="our-clients__items js-our-clients-slider owl-carousel">
                                 <div class="our-clients__item">
                                     <div class="our-clients__body">
-                                        <div class="our-clients__img"><img src="assets/images/clients/2.jpg" alt=""></div>
+                                        <div class="our-clients__img"><img src="assets/images/clients/bayu.jpeg" alt=""></div>
                                         <div class="our-clients__content">
                                             <div class="our-clients__name">JOHN <strong>MCCONELY</strong></div>
                                             <div class="our-clients__text text-general">Pelayanan dan service yang mantab budjhank
@@ -616,7 +616,7 @@
                 </div>
                 <!-- our-clients -->
 
-                <div class="company-news">
+                <!-- <div class="company-news">
                     <div class="company-news__section full-contain light-bg" style="background-image: url('assets/images/background/blog-2.jpg');">
                         <div class="v-lines">
                             <div class="v-lines__inner"></div>
@@ -718,10 +718,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- company-news -->
 
-                <div class="contact-form" id="pertanyaan">
+               <!--  <div class="contact-form" id="pertanyaan">
                     <div class="contact-form__section">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
@@ -755,11 +755,10 @@
                                         </form>
                                     </div>
                                 </div>
-                                <!-- call-back-form -->
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- contact-form -->
 
             </main>
