@@ -81,7 +81,7 @@
                            </div>
 
                              <div class="our-services__bot">
-                                <button class="our-services__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">Pesan Sekarang!</button>
+                                <a class="our-services__btn-consultation btn-general" href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
                             </div>               
                          </div>
                     </div>

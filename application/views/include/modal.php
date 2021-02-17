@@ -15,7 +15,7 @@
                             <div class="call-back-form__input">
                                 <input type="password" name="password" id="exampleInputPassword1" placeholder="Password"required="">
                             </div>
-                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form_regist"><i
+                            <a href="<?php echo base_url();?>ticket/add" class="app-footer__get-location-link" data-remodal-target="call_back_form_regist"><i
                                             class="fas fa-chevron-right"></i>REGISTRASI</a>
                             <div class="call-back-form__bottom">
                                 <button type="submit" class="call-back-form__btn-submit btn-general" >LOGIN</button>
@@ -71,7 +71,7 @@
                             <div class="call-back-form__input">
                                 <input type="number" placeholder="No Telphone" required="">
                             </div>
-                            <a href="#" class="app-footer__get-location-link" data-remodal-target="call_back_form"><i
+                            <a href="<?php echo base_url();?>ticket/add" class="app-footer__get-location-link" data-remodal-target="call_back_form"><i
                                             class="fas fa-chevron-right"></i>LOGIN</a>
                             <div class="call-back-form__bottom">
                                 <button type="submit" class="call-back-form__btn-submit btn-general" >DAFTAR</button>
@@ -140,7 +140,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
                 </div>
             </div>
             <div class="popup-about-us__bottom">
-                <a class="popup-about-us__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+                <a class="popup-about-us__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add"">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
@@ -198,7 +198,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
@@ -228,7 +228,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
@@ -251,7 +251,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
@@ -274,7 +274,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>
@@ -297,7 +297,7 @@ Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing
             </div>
         </div>
         <div class="popup-our-blog__bottom">
-            <a class="popup-our-blog__btn-consultation btn-general" data-remodal-target="call_back_form_free" href="#">PESAN SEKARANG!</a>
+            <a class="popup-our-blog__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add">PESAN SEKARANG!</a>
         </div>
     </div>
 </div>

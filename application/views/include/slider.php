@@ -12,8 +12,8 @@
                                             </h1>
                                             <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="main-slider__bot">
-                                                <button class="main-slider__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">FREE CONSULTATION</button>
-                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="about_us" href="#">LEARN MORE ABOUT US</a>
+                                                <a class="main-slider__btn-consultation btn-general"  href="" type="button">Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_ac" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -26,8 +26,8 @@
                                             </h1>
                                             <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="main-slider__bot">
-                                                <button class="main-slider__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">FREE CONSULTATION</button>
-                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="about_us" href="#">LEARN MORE ABOUT US</a>
+                                                <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_eye" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -39,9 +39,10 @@
                                                 <strong>IZZI SERVICE</strong>
                                             </h1>
                                             <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+
                                             <div class="main-slider__bot">
-                                                <button class="main-slider__btn-consultation btn-general"  data-remodal-target="call_back_form_free" type="button">FREE CONSULTATION</button>
-                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="about_us" href="#">LEARN MORE ABOUT US</a>
+                                                <a  class="main-slider__btn-consultation btn-general" href="<?php echo base_url();?>ticket/add" type="button" >Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_elektronik" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -54,8 +55,8 @@
                                             </h1>
                                             <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="main-slider__bot">
-                                                <button class="main-slider__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">FREE CONSULTATION</button>
-                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="about_us" href="#">LEARN MORE ABOUT US</a>
+                                                <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_furniture" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -68,8 +69,8 @@
                                             </h1>
                                             <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="main-slider__bot">
-                                                <button class="main-slider__btn-consultation btn-general" data-remodal-target="call_back_form_free" type="button">FREE CONSULTATION</button>
-                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="about_us" href="#">LEARN MORE ABOUT US</a>
+                                                <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_bangun" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>

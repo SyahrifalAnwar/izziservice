@@ -3,12 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords"
+		content="Trendz Login Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
 <link rel="icon" href="images/logo.ico" type="image/ico" sizes="16x16">
 <title>Login | IZZI</title>
 
-<link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
-<link href="<?php echo base_url();?>assets/css/styles.css" rel="stylesheet">
+<link href="<?php echo base_url();?>assets/css/styles.css" rel="stylesheet"> -->
+<link href="<?php echo base_url();?>assets/login/style.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -18,12 +30,48 @@
 </head>
 
 <body>
-	
-	<div class="row">
+	<section class="w3l-forms-23">
+		<div class="forms23-block-hny">
+			<div class="wrapper">
+				<h1>IZZI SERVICE</h1>
+				<!-- if logo is image enable this   
+					<a class="logo" href="index.html">
+					  <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+					</a> 
+				-->
+				<div class="d-grid forms23-grids">
+					<div class="form23">
+						<div class="main-bg">
+							<h6 class="sec-one">Reset Password</h6>
+							<div class="speci-login first-look">
+								<img src="<?= base_url();?>assets/images/user.png" alt="" class="img-responsive">
+							</div>
+						</div>
+						<div class="bottom-content">
+							<form action="<?php echo base_url();?>forget_password/reset_password" method="post">
+								<input type="email" name="email" class="input-form" placeholder="Email" 
+										required="required" />
+						
+								<button type="submit" class="loginhny-btn btn">Reset</button>
+							</form>
+							
+						</div>
+					</div>
+				</div>
+				<div class="w3l-copy-right text-center">
+					<p>© <?= date('Y'); ?> IZZI SERVICE. All rights reserved | Design by
+						<a href="http://w3layouts.com/" target="_blank">Aji Permana</a></p>
+				</div>
+			</div>
+						<?php echo $this->session->flashdata("msg");?>
+
+		</div>
+	</section>
+<!-- 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
 				<center><img width=220 height=68 src='images/logo.png' />
-					<!-- <img src="https://izzi-soft.com/assets/images/logonya.png" style="width:128px;height:68px;"> --></center>
+					<img src="https://izzi-soft.com/assets/images/logonya.png" style="width:128px;height:68px;"></center>
 				<h1></h1>
 				<div class="panel-body">
 					<form action="<?php echo base_url();?>forget_password/reset_password" method="post">
@@ -39,9 +87,9 @@
 				</div>
 			</div>
 
-			<?php echo $this->session->flashdata("msg");?>
-		</div><!-- /.col-->
-	</div><!-- /.row -->	
+			<?php echo $this->session->flashdata("msg");?> -->
+	<!-- z --><!-- /.col-->
+<!-- z --><!-- /.row -->	
 	
 		
 

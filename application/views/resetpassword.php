@@ -6,7 +6,9 @@
 <link rel="icon" href="images/logo.ico" type="image/ico" sizes="16x16">
 <title>Login | IZZI</title>
 
+<link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+
 <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/styles.css" rel="stylesheet">
 
