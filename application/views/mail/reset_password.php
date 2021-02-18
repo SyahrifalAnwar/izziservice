@@ -319,7 +319,7 @@ ul.social li{
 </div>
 <div style="max-width: 600px; margin: 0 auto;" class="email-container">
 <img src="https://izzi-soft.com/assets/images/logonya.png" alt="" style="width: 300px; max-width: 600px; height: auto; margin: auto; display: block;"><br>
-<center><h3>PASSWORD CHANGE REQUEST</h3></center><br>
+<center><h3>PASSWORDs CHANGE REQUEST</h3></center><br>
 
 <h4>We've received a password change request for your account.
 This link will expire in 24 hours. If you did not request a password change, please ignore this email, no changes will be made to your account.

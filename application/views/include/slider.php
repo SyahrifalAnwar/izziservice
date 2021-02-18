@@ -10,9 +10,9 @@
                                                 <br>
                                                 <strong>IZZI SERVICE AC</strong>
                                             </h1>
-                                            <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="main-slider__desc">Dengan teknisi yang ahli dalam Pemasangan/Perawatan AC Anda.</div>
                                             <div class="main-slider__bot">
-                                                <a class="main-slider__btn-consultation btn-general"  href="" type="button">Pesan Sekarang!</a>
+                                                <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
                                                 <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_ac" href="#">Selengkapnya</a>
                                             </div>
                                         </div>
@@ -24,7 +24,7 @@
                                                 <br>
                                                 <strong>IZZI EYE</strong>
                                             </h1>
-                                            <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="main-slider__desc">Tingkatkan Keamanan Anda Bersama Kami.</div>
                                             <div class="main-slider__bot">
                                                 <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
                                                 <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_eye" href="#">Selengkapnya</a>
@@ -38,7 +38,7 @@
                                                 <br>
                                                 <strong>IZZI SERVICE</strong>
                                             </h1>
-                                            <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="main-slider__desc">Service,Upgrade,Beli Jadi lebih Mudah dan Terjangkau.</div>
 
                                             <div class="main-slider__bot">
                                                 <a  class="main-slider__btn-consultation btn-general" href="<?php echo base_url();?>ticket/add" type="button" >Pesan Sekarang!</a>
@@ -53,7 +53,7 @@
                                                 <br>
                                                 <strong>IZZI SERVICE</strong>
                                             </h1>
-                                            <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="main-slider__desc">Kami Menyediakan Furniture lengkap dengan harga yang Terjangkau.</div>
                                             <div class="main-slider__bot">
                                                 <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
                                                 <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_furniture" href="#">Selengkapnya</a>
@@ -67,7 +67,7 @@
                                                 <br>
                                                 <strong>IZZI CONSTRUCTOR</strong>
                                             </h1>
-                                            <div class="main-slider__desc">Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="main-slider__desc">Kuli Jawa Siap Membantu Anda.</div>
                                             <div class="main-slider__bot">
                                                 <a class="main-slider__btn-consultation btn-general"  href="<?php echo base_url();?>ticket/add" type="button">Pesan Sekarang!</a>
                                                 <a class="main-slider__btn-about-us btn-general" data-remodal-target="our_blog_bangun" href="#">Selengkapnya</a>

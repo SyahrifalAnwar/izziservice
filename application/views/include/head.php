@@ -37,7 +37,7 @@
     <meta property="twitter:title" content="KADIROV">
     <meta property="twitter:description" content="">
     <meta property="twitter:image" content="">
-
+<link rel="icon" href="<?= base_url();?>assets/images/icon.png" type="image/ico" sizes="16x16">
     <title>IZZI SERVICE</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat%7CPoppins:100,200,300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">

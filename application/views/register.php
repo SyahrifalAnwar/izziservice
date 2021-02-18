@@ -14,8 +14,8 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-<link rel="icon" href="images/logo.ico" type="image/ico" sizes="16x16">
-<title>Register | IZZI</title>
+<link rel="icon" href="<?= base_url();?>assets/images/icon.png" type="image/ico" sizes="16x16">
+<title>IZZI SERVICE | DAFTAR</title>
 
 <!-- <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 						<div class="bottom-content">
-							<form action="#" method="post">
+							<form action="<?php echo base_url();?>login/register_data" method="post">
 								<input type="text" name="username" class="input-form" placeholder="Username"
 										required="required" />
 							<input type="password" name="password" class="input-form"
@@ -78,8 +78,8 @@
 					</div>
 				</div>
 				<div class="w3l-copy-right text-center">
-					<p>Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO | Design by
-						<a href="#" target="_blank">Aji Permana</a></p>
+					<p>Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO. <!-- | Design by
+						<a href="#" target="_blank">Aji Permana</a> --></p>
 				</div>
 			</div>
 			<?php echo $this->session->flashdata("msg");?> 

@@ -14,8 +14,8 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-<link rel="icon" href="images/logo.ico" type="image/ico" sizes="16x16">
-<title>Login | IZZI</title>
+<link rel="icon" href="<?= base_url();?>assets/images/icon.png" type="image/ico" sizes="16x16">
+<title>IZZI SERVICE | FORGET PASSWORD</title>
 
 <!-- <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
@@ -59,8 +59,8 @@
 					</div>
 				</div>
 				<div class="w3l-copy-right text-center">
-					<p>© <?= date('Y'); ?> IZZI SERVICE. All rights reserved | Design by
-						<a href="http://w3layouts.com/" target="_blank">Aji Permana</a></p>
+					<p>Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO.<!--  | Design by
+						<a href="http://w3layouts.com/" target="_blank">Aji Permana</a> --></p>
 				</div>
 			</div>
 						<?php echo $this->session->flashdata("msg");?>
@@ -115,7 +115,7 @@
 		  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
 		})
 	</script>	
-	<center> Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO </center>
+<!-- 	<center> Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO </center> -->
 </body>
 
 </html>

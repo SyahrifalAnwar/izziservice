@@ -40,14 +40,17 @@ PT. IZZI MITRA SOLUSINDO didukung oleh infrastruktur yang sangat baik dengan sum
                                 <div class="app-footer__content">
                                     <div class="instagram-pics">
                                       <ul>
-              <li><a  href="#home" class="app-footer__get-location-link"><i
-                                                class="fas fa-chevron-right"></i>Home</a></li>
+              <li><a  href="#home" class="app-footer__get-location-link"><i class="fas fa-chevron-right"></i>Home</a></li>
+              <li><a  href="#about-us" class="app-footer__get-location-link"><i class="fas fa-chevron-right"></i>Tentang Kami</a></li>
               <li><a  href="#layanan" class="app-footer__get-location-link"><i
-                                                class="fas fa-chevron-right"></i>Produk</a></li>
-              <li><a  href="#about-us" class="app-footer__get-location-link"><i
-                                                class="fas fa-chevron-right"></i>Tentang Kami</a></li>
+class="fas fa-chevron-right"></i>Produk</a></li>
              <li><a  href="#number" class="app-footer__get-location-link"><i
-                                                class="fas fa-chevron-right"></i>Portfolio Perusahaan</a></li>
+class="fas fa-chevron-right"></i>Portfolio Perusahaan</a></li>
+           <li><a  href="#team" class="app-footer__get-location-link"><i
+class="fas fa-chevron-right"></i>Team</a></li>
+            <li><a  href="#how" class="app-footer__get-location-link"><i
+class="fas fa-chevron-right"></i>Cara Mulai Memesan?</a></li>
+            
           
             
             </ul>

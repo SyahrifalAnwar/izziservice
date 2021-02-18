@@ -197,12 +197,13 @@
                         </div>
                         <div class="our-advantages__inner contain">
                             <h2 class="our-advantages__title title-general">PORTFOLIO <strong>PERUSAHAAN</strong></h2>
+
                             <div class="our-advantages__items">
                                 <div class="our-advantages__item">
                                     <div class="our-advantages__body">
                                         <div class="our-advantages__content">
                                             <div class="our-advantages__number">400+</div>
-                                            <div class="our-advantages__name">Happy Clients</div>
+                                            <div class="our-advantages__name">Proyek Sedang Dikerjakan</div>
                                         </div>
                                     </div>
                                 </div>
@@ -210,7 +211,7 @@
                                     <div class="our-advantages__body">
                                         <div class="our-advantages__content">
                                             <div class="our-advantages__number">2k+</div>
-                                            <div class="our-advantages__name">Succesfull works</div>
+                                            <div class="our-advantages__name">Total Proyek Selesai</div>
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +219,7 @@
                                     <div class="our-advantages__body">
                                         <div class="our-advantages__content">
                                             <div class="our-advantages__number">150+</div>
-                                            <div class="our-advantages__name">Masters</div>
+                                            <div class="our-advantages__name">Teknisi</div>
                                         </div>
                                     </div>
                                 </div>
@@ -226,20 +227,29 @@
                                     <div class="our-advantages__body">
                                         <div class="our-advantages__content">
                                             <div class="our-advantages__number">70+</div>
-                                            <div class="our-advantages__name">City Offices</div>
+                                            <div class="our-advantages__name">Cabang</div>
                                         </div>
                                     </div>
                                 </div>
+                               <!--  <div class="our-advantages__item">
+                                    <div class="our-advantages__body">
+                                        <div class="our-advantages__content">
+                                            <div class="our-advantages__number">Rp.2.000.000.000++</div>
+                                            <div class="our-advantages__name">Total Nilai Proyek</div>
+                                        </div>
+                                    </div>
+                                </div> -->
                             </div>
                             <div class="our-advantages__bot">
-                                <a class="our-advantages__btn-call btn-general"  href="#pertanyaan">Punya Pertanyaan?</a>
+                                <a class="our-advantages__btn-call btn-general"  href="#contact">Punya Pertanyaan?</a>
                             </div>
-                        </div>
+                      
+                    </div>
                     </div>
                 </div>
                 <!-- our-advantages -->
 
-                <div id="our_team" class="our-team">
+                <div id="team" class="our-team">
                     <div class="our-team__section full-contain light-bg" style="background-image: url('assets/images/background/project-4.jpg');">
                         <div class="v-lines">
                             <div class="v-lines__inner"></div>
@@ -267,8 +277,8 @@
                                             <!-- social-links -->
                                         </div>
                                         <div class="our-team__content">
-                                            <div class="our-team__name">Albert Robertson</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
+                                            <div class="our-team__name">Imam Rahmadi</div>
+                                            <div class="our-team__place text-general">Founder</div>
                                         </div>
                                     </div>
                                 </div>
@@ -291,8 +301,8 @@
                                             <!-- social-links -->
                                         </div>
                                         <div class="our-team__content">
-                                            <div class="our-team__name">Alexandr Ravilov</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
+                                            <div class="our-team__name">Syahrifal Anwar</div>
+                                            <div class="our-team__place text-general">CO Founder</div>
                                         </div>
                                     </div>
                                 </div>
@@ -315,8 +325,8 @@
                                             <!-- social-links -->
                                         </div>
                                         <div class="our-team__content">
-                                            <div class="our-team__name">Calvin Harris</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
+                                            <div class="our-team__name">Khofifah</div>
+                                            <div class="our-team__place text-general">Marketing</div>
                                         </div>
                                     </div>
                                 </div>
@@ -339,144 +349,85 @@
                                             <!-- social-links -->
                                         </div>
                                         <div class="our-team__content">
-                                            <div class="our-team__name">Calvin Harris</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
+                                            <div class="our-team__name">Aji Permana</div>
+                                            <div class="our-team__place text-general">Investor</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="our-team__item">
-                                    <div class="our-team__body">
-                                        <div class="our-team__info">
-                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
-                                            <div class="social-links">
-                                                <div class="social-links__items">
-                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
-                                                            class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
-                                                            class="fab fa-twitter"></i></a>
-                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
-                                                            class="fab fa-instagram"></i></a>
-                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
-                                                            class="far fa-envelope"></i></a>
-                                                </div>
-                                            </div>
-                                            <!-- social-links -->
-                                        </div>
-                                        <div class="our-team__content">
-                                            <div class="our-team__name">Calvin Harris</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-team__item">
-                                    <div class="our-team__body">
-                                        <div class="our-team__info">
-                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
-                                            <div class="social-links">
-                                                <div class="social-links__items">
-                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
-                                                            class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
-                                                            class="fab fa-twitter"></i></a>
-                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
-                                                            class="fab fa-instagram"></i></a>
-                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
-                                                            class="far fa-envelope"></i></a>
-                                                </div>
-                                            </div>
-                                            <!-- social-links -->
-                                        </div>
-                                        <div class="our-team__content">
-                                            <div class="our-team__name">Calvin Harris</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="our-team__item">
-                                    <div class="our-team__body">
-                                        <div class="our-team__info">
-                                            <div class="our-team__img"><img src="assets/images/team/6.jpg" alt=""></div>
-                                            <div class="social-links">
-                                                <div class="social-links__items">
-                                                    <a href="https://www.facebook.com/" target="_blank" class="social-links__item social-links__item--facebook"><i
-                                                            class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://twitter.com/" target="_blank" class="social-links__item social-links__item--twitter"><i
-                                                            class="fab fa-twitter"></i></a>
-                                                    <a href="https://www.instagram.com/" target="_blank" class="social-links__item social-links__item--instagram"><i
-                                                            class="fab fa-instagram"></i></a>
-                                                    <a href="https://mail.google.com/" target="_blank" class="social-links__item social-links__item--envelope"><i
-                                                            class="far fa-envelope"></i></a>
-                                                </div>
-                                            </div>
-                                            <!-- social-links -->
-                                        </div>
-                                        <div class="our-team__content">
-                                            <div class="our-team__name">Calvin Harris</div>
-                                            <div class="our-team__place text-general">Company CEO</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
+                                
+                                
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- our-team -->
 
-                <div class="work-process">
+                <div class="work-process" id="how">
                     <div class="work-process__section full-contain">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>
                         </div>
                         <div class="work-process__inner">
-                            <h2 class="work-process__title contain title-general">WORK <strong>PROCESS</strong></h2>
+                            <h2 class="work-process__title contain title-general">MULAI PROYEK ANDA  <strong>SEKARANG</strong></h2>
                             <div class="work-process__items js-work-process-slider owl-carousel">
                                 <div class="work-process__item">
                                     <div class="work-process__body">
-                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__img"><img src="assets/images/process/registrasi.png" alt=""></div>
                                         <div class="work-process__num"></div>
                                         <div class="work-process__content">
-                                            <div class="work-process__name">MEASURE</div>
-                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                            <div class="work-process__name">REGISTRASI</div>
+                                            <div class="work-process__text text-general">Daftar dan Login sehingga anda bisa menikmati Layanan yang Kami Sediakan.</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="work-process__item">
                                     <div class="work-process__body">
-                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__img"><img src="assets/images/process/pesanan.png" alt=""></div>
                                         <div class="work-process__num"></div>
                                         <div class="work-process__content">
-                                            <div class="work-process__name">DESIGN</div>
-                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                            <div class="work-process__name">Buat Pesanan</div>
+                                            <div class="work-process__text text-general">Pilih Produk/Jasa yang sesuai dengan Kebutuhan Anda.</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="work-process__item">
                                     <div class="work-process__body">
-                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__img"><img src="assets/images/process/survei.jpg" alt=""></div>
                                         <div class="work-process__num"></div>
                                         <div class="work-process__content">
-                                            <div class="work-process__name">PLACE</div>
-                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                            <div class="work-process__name">SURVEI</div>
+                                            <div class="work-process__text text-general">Teknisi kami yang ahli di bidangnya akan mengunjungi Anda untuk Mengkonsultasikan Kebutuhan Anda.</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="work-process__item">
                                     <div class="work-process__body">
-                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__img"><img src="assets/images/process/pay.jpg" alt=""></div>
                                         <div class="work-process__num"></div>
                                         <div class="work-process__content">
-                                            <div class="work-process__name">DESIGN</div>
-                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                            <div class="work-process__name">Pembayaran</div>
+                                            <div class="work-process__text text-general">Selesaikan Pembayaran sesuai dengan penawaran harga Pekerjaan</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="work-process__item">
                                     <div class="work-process__body">
-                                        <div class="work-process__img"><img src="assets/images/process/21.jpg" alt=""></div>
+                                        <div class="work-process__img"><img src="assets/images/process/star.jpg" alt=""></div>
                                         <div class="work-process__num"></div>
                                         <div class="work-process__content">
-                                            <div class="work-process__name">MEASURE</div>
-                                            <div class="work-process__text text-general">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                                            <div class="work-process__name">Mulai Pengerjaan</div>
+                                            <div class="work-process__text text-general">Teknisi kami akan memulai pekerjaannya dengan Profesional.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process__item">
+                                    <div class="work-process__body">
+                                        <div class="work-process__img"><img src="assets/images/process/relax.jpg" alt=""></div>
+                                        <div class="work-process__num"></div>
+                                        <div class="work-process__content">
+                                            <div class="work-process__name">Relax!</div>
+                                            <div class="work-process__text text-general">Anda sekarang Bisa Bersantai dan Teknisi Kami akan mengerjakan Proyek Anda!</div>
                                         </div>
                                     </div>
                                 </div>
@@ -494,7 +445,8 @@
                         <div class="our-projects__inner contain">
                             <h2 class="our-projects__title title-general title-general--colors">OUR
                                 <strong>PROJECTS</strong></h2>
-                                <h3 >Beberapa Foto Dokumentasi Proyek Yang Sudah Selesai/Sedang Dikerjakan Oleh Tim <strong>IZZI SERVICE</strong></h3>
+                                  <div class="main-slider__desc"><h3 >Beberapa Foto Dokumentasi PROJECTS Yang Sudah Selesai/Sedang Dikerjakan Oleh Tim <strong>IZZI SERVICE</strong></h3></div>
+    <!--                             <h3 >Beberapa Foto Dokumentasi Proyek Yang Sudah Selesai/Sedang Dikerjakan Oleh Tim <strong>IZZI SERVICE</strong></h3> -->
                             <div class="our-projects__items js-our-projects-slider owl-carousel">
                                 <div class="our-projects__item spotlight-group" data-title="">
                                     <div class="our-projects__gallery our-projects__gallery--gallery-thumbnail">
@@ -532,7 +484,7 @@
                 </div>
                 <!-- our-projects -->
 
-                <div class="our-clients">
+                <div class="our-clients" id="testi">
                     <div class="our-clients__section">
                         <div class="v-lines v-lines--mods-color">
                             <div class="v-lines__inner"></div>

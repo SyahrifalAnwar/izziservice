@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="images/logo.ico" type="image/ico" sizes="16x16">
 	<meta name="keywords"
 		content="Trendz Login Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script>
@@ -15,7 +14,8 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-	<title>IZZI SERVICE | Login</title>
+<link rel="icon" href="<?= base_url();?>assets/images/icon.png" type="image/ico" sizes="16x16">
+	<title>IZZI SERVICE | LOGIN</title>
 
 <!-- <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>assets/css/datepicker3.css" rel="stylesheet">
@@ -62,8 +62,8 @@
 					</div>
 				</div>
 				<div class="w3l-copy-right text-center">
-					<p>© <?= date('Y'); ?> IZZI SERVICE. All rights reserved | Design by
-						<a href="http://w3layouts.com/" target="_blank">Aji Permana</a></p>
+					<p>Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO. <!-- | Design by
+						<a href="http://w3layouts.com/" target="_blank">Aji Permana</a> --></p>
 				</div>
 			</div>
 						<?php echo $this->session->flashdata("msg");?>
@@ -127,7 +127,7 @@
 		  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
 		})
 	</script>	
-	<center> Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO </center>
+<!-- 	<center> Copyright © <?php echo date("Y"); ?> -  PT. IZZI MITRA SOLUSINDO </center> -->
 </body>
 
 </html>
