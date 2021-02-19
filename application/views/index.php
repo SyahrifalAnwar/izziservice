@@ -219,7 +219,7 @@
                                     <div class="our-advantages__body">
                                         <div class="our-advantages__content">
                                             <div class="our-advantages__number">150+</div>
-                                            <div class="our-advantages__name">Teknisi</div>
+                                            <div class="our-advantages__name">Teknisi Ahli</div>
                                         </div>
                                     </div>
                                 </div>

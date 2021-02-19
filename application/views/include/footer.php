@@ -1,5 +1,5 @@
 <footer id="contact" class="app-footer">
-            <div class="app-footer__section full-contain light-bg" style="background-image: url('assets/images/background/22.jpg');">
+            <div class="app-footer__section full-contain light-bg" style="background-image: url('assets/images/background/bg.jpg');">
                 <div class="v-lines">
                     <div class="v-lines__inner"></div>
                 </div>
@@ -111,6 +111,6 @@ class="fas fa-chevron-right"></i>Cara Mulai Memesan?</a></li>
                 </div>
             </div>
             <div class="legal-info full-contain">
-                <span class="legal-info__copy">Copyright ©<?php echo date('Y'); ?> IZZI SOFT</span> | <a href="http://www.izzi-soft.com/privacy_policy.html" class="legal-info__privacy-policy">Privacy Policy</a>
+                <span class="legal-info__copy">Copyright ©<?php echo date('Y'); ?> PT. IZZI MITRA SOLUSINDO.</span> | <a href="http://www.izzi-soft.com/privacy_policy.html" class="legal-info__privacy-policy">Privacy Policy</a>
             </div>
         </footer>
