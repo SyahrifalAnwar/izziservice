@@ -19,7 +19,7 @@
 
 <div class="list-group">
 <a href="#" class="list-group-item active">
-  GENERAL INFORMASI
+  GENERAL INFORMATION
 </a>
 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-asterisk"></span> &nbsp;<?php echo $nik;?></a>
 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-user"></span> &nbsp;<?php echo $nama;?></a>
@@ -36,7 +36,7 @@
 
 <div class="list-group">
 <a href="#" class="list-group-item active">
-  BUSSINES INFORMASI
+  BUSSINES INFORMATION
 </a>
 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-asterisk"></span> &nbsp;<?php echo $dept;?></a>
 <a href="#" class="list-group-item"><span class="glyphicon glyphicon-th-large"></span> &nbsp;<?php echo $bagian;?></a>
