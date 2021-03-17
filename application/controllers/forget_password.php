@@ -32,7 +32,9 @@ class Forget_password extends CI_Controller
                 // encode
                 $plain_text = $id;
                 $encrypted_string = base64_encode($plain_text);
-                $str =  $encrypted_string;
+                $str =  rtrim(strtr($encrypted_string, '+/', '-_'), '=');
+                var_dump($str);
+                die;
                 // config email
                 $config['protocol'] = 'smtp';
                 $config['smtp_host'] = 'ssl://smtp.googlemail.com';
@@ -215,7 +217,7 @@ class Forget_password extends CI_Controller
         $this->email->from($this->config->item('email_username'), 'ADMIN');
         $this->email->to($email);
         $this->email->subject('izzi Password Change Request');
-        $this->email->message('Click this link to reset Your Password : <a href="' . base_url() . 'forget_password/rst/' . $str . '">Reset</a>');
+        $this->email->message('Click this link to reset Your Password : <a href="' . base_url() . 'forget_password/rst/' . urlencode($str) . '">Reset</a>');
         //   $this->email->message('Click this link to reset Your Password <a href="'.base_url().'forget_password/rst/'.$str."'>Reset Password</a>');
         $this->email->set_header('MIME-Version', '1.0; charset=utf-8');
         $this->email->set_header('Content-type', 'text/html');
